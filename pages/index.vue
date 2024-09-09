@@ -12,6 +12,11 @@
         </div>
 
         <nuxt-link to="/test" class="link">test page from Lib</nuxt-link>
+
+        <div>
+            <h2>Fetch data from API: </h2>
+            <p>{{ data }}</p>
+        </div>
     </div>
 </template>
 
@@ -24,6 +29,14 @@ definePageMeta({
 const test = useTest();
 
 log();
+
+const { data } = await useFetch('/api/test', {
+    method: 'GET',
+});
+
+const { data:test_fetch } = await useApi('/api/test2', {
+    method: 'GET',
+});
 </script>
 
 <style scoped>
