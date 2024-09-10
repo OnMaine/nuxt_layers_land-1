@@ -20,7 +20,7 @@
 
         <NuxtImg
           class="weapon-logo desktop-only"
-          src="/skins/ak47.webp"
+          src="/images/skins/ak47.webp"
           alt="AK-47 logo"
           height="264"
           width="613"
