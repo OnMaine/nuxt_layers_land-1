@@ -17,6 +17,16 @@
             <h2>Fetch data from API: </h2>
             <p>{{ data }}</p>
         </div>
+
+        <NuxtImg
+          class="weapon-logo desktop-only"
+          src="/skins/ak47.webp"
+          alt="AK-47 logo"
+          height="264"
+          width="613"
+          loading="lazy"
+          quality="80"
+        />
     </div>
 </template>
 
