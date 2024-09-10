@@ -11,7 +11,6 @@ export default defineNuxtConfig({
   //@ts-ignore
   image: {
     format: ['webp'],
-    dir: 'assets/images',
     screens: {
       'xs': 360,
       'sm': 550,
