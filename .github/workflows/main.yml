@@ -1,0 +1,66 @@
+name: Sentry Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'  # Trigger on version tag push, e.g., v1.0.0
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 'node'  # Install the latest Node.js version
+
+    - name: Install dependencies
+      run: npm ci  # Clean install of dependencies
+
+    - name: Install Sentry CLI
+      run: npm install -g @sentry/cli
+
+    - name: Extract version from tag
+      run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+
+    - name: Build project
+      run: npm run build
+
+    - name: Create Sentry release
+      uses: getsentry/action-release@v1
+      with:
+        environment: production
+      env:
+        SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+        SENTRY_ORG: ${{ secrets.SENTRY_ORG }}
+        SENTRY_PROJECT: ${{ secrets.SENTRY_PROJECT }}
+
+    - name: Associate commits with release
+      run: |
+        sentry-cli releases set-commits "$VERSION" --auto \
+          --org ${{ secrets.SENTRY_ORG }} \
+          --project ${{ secrets.SENTRY_PROJECT }}
+      env:
+        SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+
+    - name: Upload source maps
+      run: |
+        sentry-cli releases files "$VERSION" upload-sourcemaps ./dist \
+          --org ${{ secrets.SENTRY_ORG }} \
+          --project ${{ secrets.SENTRY_PROJECT }}
+      env:
+        SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+
+    - name: Finalize release
+      run: |
+        sentry-cli releases finalize "$VERSION" \
+          --org ${{ secrets.SENTRY_ORG }} \
+          --project ${{ secrets.SENTRY_PROJECT }}
+      env:
+        SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
