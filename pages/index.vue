@@ -47,6 +47,10 @@ const { data } = await useFetch('/api/test', {
 const { data:test_fetch } = await useApi('/api/test2', {
     method: 'GET',
 });
+
+throwError() {
+    throw new Error('Sentry Error');
+}
 </script>
 
 <style scoped>
