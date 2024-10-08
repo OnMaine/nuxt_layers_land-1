@@ -11,6 +11,10 @@
             <p>{{ test }}</p>
         </div>
 
+        <div>
+            <button @click="throwError">Throw error</button>
+        </div>
+
         <nuxt-link to="/test" class="link">test page from Lib</nuxt-link>
 
         <div>
@@ -48,7 +52,8 @@ const { data:test_fetch } = await useApi('/api/test2', {
     method: 'GET',
 });
 
-throwError() {
+
+function throwError() {
     throw new Error('Sentry Error');
 }
 </script>
