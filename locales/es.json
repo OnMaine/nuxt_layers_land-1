@@ -1,0 +1,952 @@
+{
+  "common": {
+    "page": "página",
+    "favourites": "Favoritos",
+    "remove_all": "Eliminar todo",
+    "popularity": "Popularidad",
+    "filters": "Filtros",
+    "error": "Error",
+    "amount": "Cantidad",
+    "transaction": "{count} transacciones | {count} transacción | {count} transacciones",
+    "accept_trade": "Aceptar intercambio",
+    "cancel_purchase": "Cancelar compra",
+    "wait_unlock": "Espera a que se desbloquee el objeto",
+    "accepted": "Aceptado",
+    "trade_canceled_return": "Intercambio rechazado",
+    "return": "Devolución",
+    "expired_return": "El tiempo ha expirado",
+    "not_accepted_trade": "No aceptaste el intercambio en el tiempo especificado.",
+    "money_returned_back": "Tu dinero ha sido devuelto al saldo.",
+    "processing": "Procesando",
+    "send_error_bot_unavailable": "El bot no está disponible.",
+    "send_error_invalid_trade_url": "Has introducido la URL de intercambio incorrecta, o tienes una prohibición VAC para el juego.",
+    "send_error_unknown_error": "Ha ocurrido un error desconocido.",
+    "send_error_you_cant_trade": "Tu cuenta tiene restricciones de intercambio.",
+    "send_error_other_reason": "Otro motivo.",
+    "please_check_entered_details": "Por favor, compruebe los detalles introducidos",
+    "sell_skins": "Vender skins",
+    "sell": "Vender",
+    "buy_skins": "Comprar skins",
+    "buy_more_skins": "Comprar más skins",
+    "buy": "Comprar",
+    "more": "Más",
+    "faq": "Preguntas frecuentes",
+    "reviews": "Reseñas | {count} Reseñas",
+    "articles": "Artículos",
+    "contacts": "Contactos",
+    "login_via_steam": "Iniciar sesión",
+    "login": "Iniciar sesión",
+    "logout": "Cerrar la sesión",
+    "profile": "Perfil",
+    "blog": "Blog",
+    "transactions": "Transacciones",
+    "withdrawal": "Retirada",
+    "refill_balance": "Recargar saldo",
+    "refill": "Rellenar",
+    "balance": "Saldo",
+    "select_language": "Seleccionar idioma",
+    "select_currency": "Seleccionar moneda",
+    "privacy_policy": "Política de privacidad",
+    "terms_of_service": "Condiciones de servicio",
+    "cookie_policy": "Política de cookies",
+    "follow_us": "Síganos",
+    "close": "Cerrar",
+    "menu": "Menú",
+    "home": "Inicio",
+    "featured": "Destacado",
+    "check_more": "Obtén más información sobre nosotros en",
+    "market": "Comprar skins",
+    "page_not_found": "Página no encontrada",
+    "too_many_requests": "Demasiadas solicitudes. Por favor, inténtelo de nuevo más tarde.",
+    "error_corrupted": "Oops, se ha producido un error, por favor recargue la página",
+    "save": "Guardar",
+    "edit": "Editar",
+    "verify": "Verifique",
+    "start": "Inicio",
+    "time_ago": {
+      "just_now": "justo ahora",
+      "ago": "hace {0}",
+      "in": "en {0}",
+      "month": "mes | meses",
+      "year": "año | años",
+      "day": "día | días",
+      "week": "semana | semanas",
+      "hour": "hora | horas",
+      "minute": "minuto | minutos",
+      "second": "segundo | segundos"
+    },
+    "add_to_favourites": "Agregar a favoritos",
+    "zoom_skin_image": "Imagen de piel de zoom",
+    "like_article": "Me gusta el artículo",
+    "social_link": "Enlace social de {name}",
+    "regular": "Regular",
+    "maintenance": {
+      "meta_title": "Mantenimiento",
+      "title": "¡Volveremos pronto!",
+      "description": "Lo sentimos por los inconvenientes, pero estamos realizando mantenimiento en este momento. ¡Volveremos a estar en línea en breve!"
+    },
+    "404": "404 No Encontrada",
+    "subscribers": "Suscriptores",
+    "starting_at": "A partir de",
+    "crypto": "Cripto"
+  },
+  "filters": {
+    "selected": "{count} Seleccionados",
+    "price_from": "Precio desde",
+    "price_to": "Precio hasta",
+    "float_from": "Flotar desde",
+    "float_to": "Flotar a",
+    "rarity": "Rareza",
+    "exterior": "Exterior",
+    "hold": "Retención",
+    "phase": "Fase",
+    "category": "Categoría",
+    "stickers": "Pegatinas",
+    "type": "Tipo",
+    "hero": "Héroe",
+    "slot": "Ranura",
+    "quality": "Calidad",
+    "reset": "Restablecer filtros",
+    "apply": "Aplicar filtros",
+    "search": "Búsqueda",
+    "no_results": "No se encontraron héroes. Por favor, actualiza tu búsqueda.",
+    "no_hold": "No hay retención",
+    "hold_1": "1 día",
+    "hold_2": "2 días",
+    "hold_3": "3 días",
+    "hold_4": "4 días",
+    "hold_5": "5 días",
+    "hold_6": "6 días",
+    "hold_7": "7 días",
+    "hold_8": "8 días",
+    "without_statrack": "Sin StatTrak™",
+    "souvenir": "Recuerdo",
+    "without_souvenir": "Sin Recuerdo",
+    "nametag": "Etiqueta de nombre",
+    "any_stickers": "Cualquier pegatina",
+    "expensive_stickers": "Pegatinas caras",
+    "show_favourites": "Mostrar favoritos",
+    "sort_by_newest": "El más nuevo",
+    "sort_by_oldest": "El más antiguo"
+  },
+  "footer": {
+    "buy_csgo_skins": "Comprar CS:GO skins",
+    "buy_dota_skins": "Comprar Dota 2 skins",
+    "buy_rust_skins": "Comprar Rust skins",
+    "buy_with_crypto": "Comprar con cripto",
+    "buy_with_credit_card": "Compra con tarjeta de crédito",
+    "copyright": {
+      "ownership": "<p>Skin.Land website is owned and operated by group of companies:<br>- Pixel Place Limited (registered company no is 3154102), registered at room 8, S-V, 6/F Valiant Industrial Center 2-12 Pci Wan St., Fo Tan, Hong Kong.<br>- SieraLink Limited, registered in Cyprus with registered address 1 Apriliou 52, Athienou, Larnaca, Cyprus with registered company number (HE 435301).</p>",
+      "trademark": "<p>Copyright © Skin.Land {year}. All Rights Reserved.</p><p>Powered by Steam. Not affiliated with Valve Corp.</p>"
+    },
+    "sell_with_crypto": "Vender skins por cripto",
+    "sell_csgo_skins": "Vender CS:GO skins",
+    "sell_dota_skins": "Vender Dota 2 skins",
+    "sell_rust_skins": "Vender Rust skins"
+  },
+  "main_page": {
+    "welcome": {
+      "title": "Compra y vende",
+      "skins": "skins",
+      "sign_in": "Inicia sesión y comercia con skins",
+      "trade": "Comercia con skins",
+      "advantages": {
+        "best_prices": "Mejores precios",
+        "no_commission": "Sin comisiones ocultas",
+        "service": "Servicio 24/7",
+        "security": "100% seguro",
+        "average_time": "5 minutos de tiempo medio de pago"
+      }
+    },
+    "recent_deals": {
+      "title": "Ofertas recientes"
+    },
+    "citation" : {
+      "read": "Leer entrevista completa",
+      "description": "Yo elijo <b>Skin.Land</b> como el mercado de CS2 que mejor satisface mis necesidades - ofrece buenas ofertas a precios bajos, combinadas con transacciones rápidas y una plataforma confiable.",
+      "signature": "FalleN, la leyenda de CS"
+    },
+    "steps": {
+      "title": "Cómo vender skins en Skin.Land",
+      "first_step": {
+        "title": "Iniciar sesión a través de Steam",
+        "description": "Configure la URL de operación de su cuenta y dirección de correo electrónico"
+      },
+      "second_step": {
+        "title": "Elija los skins",
+        "description": "Obtenga una valoración de cada skin y seleccione los que quiera vender"
+      },
+      "third_step": {
+        "title": "Consiga su dinero",
+        "description": "Elija un método de pago y obtenga su dinero o cripto al instante, las 24 horas del día"
+      }
+    },
+    "bloggers": {
+      "title": "Los bloggers nos recomiendan",
+       "watch": "Ver ahora"
+    },
+    "questions": {
+      "title": "¿Tienes preguntas?"
+    },
+    "qualities": {
+      "first_quality": {
+        "description": "Skins vendidos"
+      },
+      "second_quality": {
+        "description": "Skins compradas"
+      },
+      "third_quality": {
+        "description": "Usuarios satisfechos"
+      }
+    },
+    "benefits": {
+      "title": "Hacemos lo que podemos",
+      "first_benefit": {
+        "info": "Ofrecemos los <span class=\"color--violet\">mejores precios</span> para sus skins"
+      },
+      "second_benefit": {
+        "info": "Proporcionamos un <span class=\"color--violet\">servicio transparente</span> sin comisiones ocultas"
+      },
+      "third_benefit": {
+        "info": "Trabajamos 24 horas al día y 7 días a la semana en su nombre para que reciba <span class=\"color--violet\">pagos instantáneos</span>"
+      },
+      "fourth_benefit": {
+        "info": "Construimos nuestro servicio para que sea <span class=\"color--violet\">100 % seguro</span>"
+      }
+    },
+    "latest_articles": {
+      "title": "Manténgase en contacto con las últimas noticias"
+    },
+    "reviews": {
+      "title": "Los usuarios adoran nuestro servicio",
+      "review": "Reseñas sobre",
+      "1": "Muy malo",
+      "1_5": "Muy malo",
+      "2": "Malo",
+      "2_5": "Malo",
+      "3": "Bueno",
+      "3_5": "Bueno",
+      "4": "Muy bueno",
+      "4_5": "Excelente",
+      "5": "Excelente"
+    },
+    "seo": {
+      "title": "Compra y Venta Skins de CS:GO/CS2, Dota 2 y Rust - Skin.Land",
+      "description": "¡En el mercado Skin.Land puedes comprar y vender skins para CS2, CS:GO, Dota 2 y Rust! Transacciones rápidas y seguras, precios transparentes y un inventario enorme."
+    }
+  },
+  "market_page": {
+    "title": "Mercado de Skins CS:GO/CS2, Dota 2 y Rust - Skin.Land",
+    "meta_description": "Descubra una gran selección de máscaras para juegos populares como CS: GO, Dota 2 y Rust, y cómprelos y véndalos en el mercado Skin.Land.",
+    "breadcrumb_title": "Mercado de Skins CS:GO/CS2",
+
+    "dota2": {
+      "title": "Comprar Skins y Objetos de Dota 2 {'|'} Dota 2 Skins Tienda - Skin.Land",
+      "meta_description": "Consigue un buen precio al comprar skins de Dota 2 con Skin.Land. Compra skins de forma fácil, rápida y segura.",
+      "breadcrumb_title": "Comprar máscaras Dota 2",
+      "hero_breadcrumb_title": "Comprar skins en {hero}",
+      "hero_title": "Comprar skins para {hero} en Dota 2",
+      "hero_description": "En esta página, puedes comprar skins para {hero} in Dota 2 en nuestro catálogo. Descubre una gran selección de máscaras y otros artículos de Steam para comprar y vender.",
+      "type_breadcrumb_title": "Comprar skins en {type}",
+      "type_title": "Comprar skins para {type} en Dota 2",
+      "type_description": "En esta página, puedes comprar skins para {type} in Dota 2 en nuestro catálogo. Descubre una gran selección de máscaras y otros artículos de Steam para comprar y vender."
+    },
+
+    "csgo": {
+      "title": "Comprar skins de CS:GO/CS2 {'|'} Paginas de Skins CS:GO - Skin.Land",
+      "meta_description": "Skin.Land te ayudará a comprar skins y objetos de CS:GO baratos por dinero real. Tenemos precios bajos, retirada instantánea y muchos métodos de pago.",
+      "breadcrumb_title": "Comprar aspectos de CS:GO",
+      "category_or_type_breadcrumb_title": "Comprar skins en {filter}",
+      "category_or_type_title": "Comprar skins para {filter} en CS:GO",
+      "category_or_type_description": "En esta página, puedes comprar skins para {filter} in CS:GO en nuestro catálogo. Descubre una gran selección de máscaras y otros artículos de Steam para comprar y vender."
+    },
+
+    "rust": {
+      "title": "Comprar Skins y Objetos de Rust {'|'} Rust Skins Tienda - Skin.Land",
+      "meta_description": "El mercado Skin.Land le ayudará a comprar skins de Rust de forma rentable. Ofrecemos una gran selección de pieles Rust y un servicio de calidad.",
+      "breadcrumb_title": "Comprar pieles Rust",
+      "category_or_type_breadcrumb_title": "Comprar skins en {filter}",
+      "category_or_type_title": "Comprar skins para {filter} en Rust",
+      "category_or_type_description": "En esta página, puedes comprar skins para {filter} in Rust en nuestro catálogo. Descubre una gran selección de máscaras y otros artículos de Steam para comprar y vender."
+    },
+
+    "cs2": {
+      "title": "Comprar máscaras CS2 - Skin.Land",
+      "meta_description": "Skin.Land te ayudará a comprar skins CS2 baratos por dinero real. Tenemos precios bajos, retiro instantáneo y muchos métodos de pago.",
+      "breadcrumb_title": "Comprar máscaras CS2"
+    },
+
+    "offers": "{0} en oferta a partir de",
+    "no_results": {
+      "info": "No se ha encontrado nada",
+      "instructions": "Cambie sus filtros o reajústelos"
+    },
+    "no_favourites_with_selected_filters": "No tienes ningún artículo favorito con los filtros seleccionados. Puedes limpiar tus filtros para ver todos tus favoritos para el juego seleccionado",
+    "no_favourites": "Aún no has añadido ningún elemento a favoritos en {game}",
+    "added_favourite": "<strong>{skin}</strong> ha sido añadido a tu lista de Favoritos",
+    "removed_favourite": "<strong>{skin}</strong> ha sido eliminado de tu lista de Favoritos"
+  },
+  "sell_skins": {
+    "meta_title": "Vende tus aspectos de CS:GO, Dota 2 y Rust en - Skin.Land",
+    "meta_description": "Obtenga el mejor valor por sus máscaras vendiéndolas en Skin.Land. Fácil, rápido y seguro.",
+    "index": {
+      "page_title": "Retiro de aspectos de CS:GO y CS2",
+      "meta_title": "El mejor sitio para retirar instantáneamente máscaras de CS:GO y CS2 en {year}",
+      "meta_description": "¿Se pregunta cómo retirar sus aspectos de CS:GO y CS2 de forma rápida y segura? Nuestro sitio es la mejor opción para convertir sus skins en efectivo, ya que ofrece una variedad de opciones de pago."
+    },
+    "csgo": {
+      "page_title": "Vender aspectos de CS:GO",
+      "meta_title": "Vender Skins de CS:GO/CS2 Por Dinero Real - Skin.Land",
+      "meta_description": "En la plataforma comercial Skin.Land puedes vender skins de CS:GO por dinero real. Venta rápida de objetos de CS:GO con cómoda retirada de dinero y servicio de calidad."
+    },
+    "dota2": {
+      "page_title": "Vender máscaras Dota 2",
+      "meta_title": "Vende skins de Dota 2 por dinero real - Skin.Land",
+      "meta_description": "En la plataforma comercial Skin.Land puedes vender skins de Dota 2 por dinero real. Venta rápida de objetos de Dota 2 con cómoda retirada de dinero y servicio de calidad."
+    },
+    "rust": {
+      "page_title": "Vender aspectos de Rust",
+      "meta_title": "Vende skins de Rust por dinero real - Skin.Land",
+      "meta_description": "En la plataforma comercial Skin.Land puedes vender skins de Rust por dinero real. Venta rápida de objetos de Rust con cómoda retirada de dinero y servicio de calidad."
+    },
+    "cs2": {
+      "page_title": "Vender máscaras CS2",
+      "meta_title": "Vender pieles CS2 por dinero real - Skin.Land",
+      "meta_description": "En el mercado Skin.Land puedes vender skins CS2 por dinero real. Con nosotros obtendrá un precio favorable para la venta de sus artículos CS2."
+    },
+    "sign_in_block": "Inicia sesión con Steam para empezar a vender skins.",
+    "items_not_accepted_title": "{count} artículo no fue aceptado para la venta | {count} artículos no fueron aceptados para la venta",
+    "items_not_accepted_description": "Nuestro servicio no compra esos skins, o no se pueden intercambiar.",
+    "items_not_available_for_sell": "Tiene: {0} artículos que no están disponibles para vender.",
+    "items_not_available_for_sell_description": "Nuestro servicio no compra esas skins o no se pueden intercambiar.",
+    "items_not_available_for_sell_button": "Refrescar",
+    "no_items_title": "No tiene artículos para intercambiar.",
+    "no_items_description": "No hay artículos en su inventario que podamos aceptar. Quizás no sean comerciables o los jugadores no los quieran.",
+    "no_items_button": "Refrescar",
+    "search_field_placeholder": "Búsqueda de skins",
+    "search_field_clear_button": "Borrar",
+    "refresh_button_text": "Refrescar",
+    "edit_trade_url_button_text": "Editar la URL de operación",
+    "no_results": "No se encontraron resultados para ’{0}’.",
+    "select_all_skins": "Seleccionar todo",
+    "sorting": {
+      "sort_by_price_text": "Precio",
+      "sort_by_newest_text": "El mas nuevo",
+      "select_option_text": "Seleccionar una opción",
+      "no_results": "No se ha encontrado nada"
+    },
+    "payment": {
+      "steps": {
+        "payment_method": {
+          "title": "Método de pago"
+        },
+        "payment_details": {
+          "title": "Detalles de pago"
+        },
+        "payment_confirmation": {
+          "title": "Confirmación de pago"
+        },
+        "confirmation_on_steam": {
+          "title": "Confirmación en Steam"
+        },
+        "payment_transfer": {
+          "title": "Transferencia de pago"
+        }
+      },
+      "forms": {
+        "fields": {
+          "first_name": "Nombre",
+          "last_name": "Apellido",
+          "iban": "IBAN",
+          "card_number": "Número de tarjeta",
+          "expiration_date": "Fecha de vencimiento de la tarjeta bancaria (MM/AA)",
+          "country": "País de la tarjeta bancaria",
+          "date_of_birth": "Fecha de nacimiento (AAAA/MM/DD)",
+          "bitcoin_wallet": "Su billetera de Bitcoin",
+          "ethereum_wallet": "Su billetera de Ethereum",
+          "tether_wallet": "Su billetera de Tether"
+        }
+      },
+      "details": {
+        "description": "Puede tomar hasta tres días hábiles para que el banco acredite su pago. Por favor, espere la transacción.",
+        "bonus": "Bono",
+        "transaction_commission": "Comisión de transacción",
+        "you_receive": "Usted recibe",
+        "crypto_amount": "Monto de criptomoneda"
+      },
+      "confirmation": {
+        "timer_description": "Tiene {0} minutos para aceptar la operación, o de lo contrario se cancelará.",
+        "details_description": "Para que un intercambio sea seguro, verifique:\n— Nombre del bot\n— Nivel del bot\n— Si la operación se canceló inmediatamente, y usted no la canceló, entonces su cuenta fue hackeada. Póngase en contacto con el servicio de asistencia, y le ayudaremos.",
+        "uniq_id": "IDENTIFICACIÓN ÚNICA",
+        "bot_name": "Nombre del bot",
+        "bot_level": "Nivel del bot",
+        "accept_trade_title": "ACEPTAR LA OPERACIÓN:",
+        "accept_trade_browser": "En el navegador",
+        "accept_trade_steam": "En Steam"
+      },
+      "transfer": {
+        "success_title": "¡Transferencia exitosa!",
+        "success_description": "El dinero ha sido acreditado en su saldo.",
+        "button_text": "Proponer un nuevo acuerdo",
+        "statuses": {
+          "credited_to_balance_title": "Error de pago",
+          "credited_to_balance_description": "El dinero se ha abonado a su saldo. Por favor, contacte al soporte para obtener más detalles.",
+          "ignored_title": "Error de pago",
+          "ignored_description": "Error de pago. Por favor, contacte al soporte.",
+          "success_title": "Transferencia exitosa",
+          "success_description_no_payout": "El dinero se ha abonado a su saldo.",
+          "success_description": "El dinero se transfirió a la billetera que especificó.",
+          "progress_title": "Transferencia en progreso",
+          "progress_description": "Recibirá su transferencia de dinero en 5 minutos."
+        }
+      },
+      "no_skins_selected": "No hay skins seleccionadas",
+      "selected_skins": "{count} artículo para | {count} artículos para",
+      "next_button_text": "Siguiente",
+      "back_button_text": "Volver",
+      "minimum_trade_amount": "Importe mínimo de la operación",
+      "minimum_payout_amount": "El importe mínimo de la operación es",
+      "maximum_payout_amount": "Monto máximo de pago",
+      "hint_text": "Solo puedes retirar el saldo que se obtuvo de las ventas.",
+      "mobile_selected_items_for": "{count} artículo para | {count} artículos para",
+      "mobile_selected_items_button": "Vender skins",
+      "crypto_methods": "Métodos criptográficos"
+    },
+    "trade_url": {
+      "title": "Editar la URL de operación",
+      "input_placeholder": "URL de operación",
+      "button_text": "Guardar",
+      "description": "Puede encontrar su URL de operación {0}.",
+      "link": "aquí"
+    }
+  },
+  "trade_info_modal": {
+    "title": "Operación activa #{count}:",
+    "success_message_title": "¡Transferencia exitosa!",
+    "success_message_description": "El dinero ha sido acreditado en su saldo.",
+    "after_buy_success_title": "¡Compra exitosa!",
+    "after_buy_success_description": "Las skins se han retirado con éxito a tu cuenta de Steam. Por favor, déjanos una reseña haciendo clic en el botón de abajo."
+  },
+  "reviews_page": {
+    "title": "Reseñas - Comentarios reales de los usuarios - Skin.Land",
+    "breadcrumbs_title": "Reseñas",
+    "meta_description": "Vea lo que los usuarios reales tienen que decir sobre Skin.Land. Lea reseñas y comentarios de nuestra comunidad de pieles."
+  },
+  "profile_page": {
+    "title": "{userName} Skin.Land Profile - CS:GO, Dota 2, Rust skins con los mejores precios - Skin.Land",
+    "meta_description": "{userName} Perfil. Información sobre la cuenta y las transacciones. Acceda y administre su colección de máscaras en Skin.Land",
+    "tabs": {
+      "profile": "Perfil",
+      "transactions": "Transacciones",
+      "security": "Seguridad"
+    },
+    "profile_tab_title": "Cuenta",
+    "trade_url": "URL de operación",
+    "trade_url_has_updated": "Se ha actualizado la URL comercial",
+    "email_address": "Dirección de correo electrónico",
+    "kyc" : "Verificación KYC",
+    "kyc_verification" : "Conozca a su cliente (KYC) es el proceso que garantiza la seguridad de nuestros usuarios y que aplican diversas instituciones financieras. Los usuarios verificados por KYC tienen límites de depósito y retirada más altos.",
+    "requested": "Solicitado",
+    "approved": "Aprobado",
+    "rejected": "Rechazado",
+    "verified": "Verificado",
+    "settings": "Ajustes",
+    "language_dropdown_label": "Idioma",
+    "language_dropdown_select_option": "Seleccionar idioma",
+    "currency_dropdown_label": "Moneda",
+    "currency_dropdown_select_option": "Seleccionar moneda",
+    "edit_trade_url_button": "Editar la URL de operación",
+    "purchase_cancellation": "Cancelación de la compra",
+    "confirm_cancellation": "Confirmar la cancelación",
+    "dismiss_cancellation": "No cancele la compra",
+    "success_cancellation": "La compra se ha cancelado. Se ha devuelto el dinero.",
+    "cancellation_fee": "Tasa de cancelación",
+    "not_verified": "No verificado",
+    "no_transactions": "Todavía no tienes ninguna transacción.",
+    "enter_trade_url_button": "Ingresar URL de intercambio",
+    "no_trade_url": "URL de intercambio no especificada",
+    "where_find_trade_url": "Dónde encontrar?",
+    "transaction_statuses": {
+      "error_text": "Devolver",
+      "accepted_text": "Aceptado",
+      "processing_text": "Procesando",
+      "wait_text": "Espera a que el artículo se desbloquee",
+      "accept_trade_text": "Aceptar intercambio"
+    }
+  },
+  "transactions_page": {
+    "title": "{userName} Transacciones - CS:GO, Dota 2, Rust skins con los mejores precios - Skin.Land",
+    "meta_description": "{userName} Actas. Información sobre depósitos y retiros. Rastree y vea todas sus transacciones de piel en un lugar conveniente con la función de historial de transacciones de Skin.Land.",
+    "contact_support_hint": "Error de pago. Por favor, contacte con el soporte para más detalles"
+  },
+  "security_page": {
+    "title": "{userName} Seguridad - CS:GO, Dota 2, Rust skins con los mejores precios - Skin.Land",
+    "logout_from_all": "Cerrar sesión de todos los dispositivos",
+    "sessions_have_ended": "Sesiones en otros dispositivos han finalizado",
+    "active_sessions": "Sesiones activas: {count}",
+    "last_logins": "Últimos inicios de sesión: {count}"
+  },
+  "popups": {
+    "edit_trade_url": {
+      "title": "Editar la URL de operación",
+      "input_placeholder": "URL de operación",
+      "button_text": "Guardar",
+      "description": "Puede encontrar su URL de operación {0}.",
+      "link": "aquí",
+      "error_title": "URL de intercambio no especificada",
+      "error_text": "Por favor, agregue su URL de intercambio para comprar skins",
+      "error_button_text": "Ingresar URL de intercambio",
+      "not_valid_title": "La URL comercial no es válida",
+      "not_valid_text": "Actualice su URL comercial",
+      "not_valid_button_text": "Actualizar URL comercial"
+    },
+    "edit_email": {
+      "title": "Editar la dirección de correo electrónico",
+      "input_placeholder": "Dirección de correo electrónico",
+      "button_text": "Guardar la nueva dirección de correo electrónico",
+      "cancel_button_text": "Cancelar",
+      "first_step_title": "Verifique su dirección de correo electrónico actual",
+      "first_step_description": "Introduzca el código de verificación que le hemos enviado a {0}",
+      "confirmation_code_input_placeholder": "Código de confirmación",
+      "confirmation_button_text": "Confirmar",
+      "confirmation_error": "Código de confirmación no válido",
+      "resend_button_text": "Reenviar código",
+      "second_step_title": "Introduzca y verifique su nueva dirección de correo electrónico",
+      "new_email_input_placeholder": "Nueva dirección de correo electrónico",
+      "new_email_confirmation_code_input_placeholder": "Código de confirmación",
+      "current_email_verified": "Dirección de correo electrónico actual verificada",
+      "edit_new_email": "Editar la nueva dirección de correo electrónico",
+      "sent_verification_code": "Introduzca el código de verificación que le hemos enviado a {0}",
+      "verified": "Verificado"
+    },
+    "withdrawal": {
+      "title": "Retirada",
+      "input_label": "Introduzca el importe de la retirada",
+      "available_for_withdrawal": "Disponible para su retirada",
+      "total_balance": "Saldo Total",
+      "min_withdrawal_text": "Importe mínimo de retirada",
+      "transaction_commission_text": "Comisión de transacción",
+      "bonus_text": "Primo",
+      "you_receive_text": "Usted recibe",
+      "crypto_amount_text": "Cantidad de criptomonedas",
+      "exceed_balance": "El importe de retiro supera el saldo disponible para el retiro.",
+      "minimum_amount": "El importe mínimo de retirada es de",
+      "maximum_amount": "El importe máximo de retirada es",
+      "unverified_email_title": "Dirección de correo electrónico no verificada",
+      "unverified_email_for_refill_description": "Por favor, verifique su dirección de correo electrónico para recargar su saldo.",
+      "unverified_email_for_withdrawal_description": "Por favor, verifique su dirección de correo electrónico para retirar dinero de su saldo.",
+      "unverified_email_for_selling_description": "Por favor, verifique su dirección de correo electrónico para recargar su saldo con skins.",
+      "unverified_email_button_text": "Verificar la dirección de correo electrónico",
+      "confirmation_details": "Le hemos enviado un código de confirmación a su correo electrónico: {0}.",
+      "resend_btn_text": "Reenviar código",
+      "confirm_btn_text": "Confirmar la transacción",
+      "success_title": "Transferencia realizada con éxito",
+      "success_description": "El dinero fue transferido a la cartera que usted especificó.",
+      "error_title": "Error de transferencia",
+      "error_description": "Por favor, póngase en contacto con nuestro equipo de asistencia para revisar el problema.",
+      "error_credited_to_balance_description": "El dinero se ha acreditado en su saldo.",
+      "locked_balance_text": "Bloqueado hasta",
+      "moderation_title": "Transferencia en curso",
+      "moderation_description": "Tiempo de procesamiento:\nTransferencias con tarjeta bancaria y Crypto normalmente en 20-30 minutos.\nTransferencias SEPA normalmente en 1-3 días laborables.",
+      "confirm_withdrawal_text": "Para confirmar la retirada, introduzca el código enviado a su correo electrónico:",
+      "amount_sent": "Importe enviado",
+      "to_wallet": "Al monedero",
+      "to_card": "A tarjeta",
+      "success_button_text": "Genial!",
+      "fail_button_text": "Muy bien",
+      "contact_support_button_text": "Contactar soporte",
+      "next_button_text": "Siguiente",
+      "saved_payout": {
+        "title": "Métodos de pago guardados",
+        "expires": "Expira en",
+        "set_as_default": "Fijar por defecto",
+        "delete": "Borrar",
+        "default": "Por defecto",
+        "mastercard_error": "MasterCard no está disponible para este método, por favor utilice Visa",
+        "add_new_method_button": "Agregar tarjeta",
+        "no_items": "No hay tarjetas guardadas",
+        "show_all_cards": "Mostrar todas las tarjetas",
+        "hide": "Ocultar"
+      }
+    },
+    "refill_balance": {
+      "title": "Recargar saldo",
+      "input_label": "Introduzca el importe del depósito.",
+      "min_deposit_text": "Cantidad mínima de depósito",
+      "minimum_amount": "El importe mínimo del depósito es de",
+      "you_pay_text": "Usted paga",
+      "maximum_amount": "El importe máximo del depósito es",
+      "hint_message_title": "Leer antes de pagar",
+      "hint_message_description": "Los fondos depositados no se pueden retirar. Antes de depositar fondos, tenga en cuenta que sólo puede retirar los fondos que haya recibido de la venta de artículos de su inventario. Ponte en contacto con nuestro servicio de asistencia para obtener más información sobre nuestro sistema de depósito.",
+      "kyc_message": "Para mejorar la seguridad de nuestra plataforma y garantizar el cumplimiento de las normativas, tenemos un límite diario de depósito de {0} sin KYC. Para aumentar el límite, necesita pasar {1}.",
+      "kyc_procedure_button_text": "Procedimiento KYC",
+      "kyc_verify_to_remove_limit": "Complete la verificación KYC para aumentar sus límites",
+      "kyc_daily_limit_text": "Su límite diario de depósito",
+      "kyc_unlimited_deposit": "Know Your Customer (KYC) es el proceso que garantiza la seguridad de nuestros usuarios y es aplicado por varias instituciones financieras. Los usuarios verificados por KYC tienen límites más altos de depósito y retiro.",
+      "kyc_start": "Iniciar la verificación KYC",
+      "next_button_text": "Pagar",
+      "tos_and_privacy": "Al hacer clic en Pagar, acepta nuestro {0} y que ha leído nuestro {1}",
+      "tos_text": "Condiciones de uso",
+      "privacy_policy_text": "Política de privacidad",
+      "timer_description": "Dispone de {0} minutos para completar la transacción. El pago es totalmente automático.",
+      "time_is_over": "El tiempo ha terminado. Inicie un nuevo proceso de recarga. ¡No utilice estas credenciales de pago para realizar una transacción!",
+      "send_btn_amount": "Por favor, envíe la siguiente cantidad de <strong>{0}</strong>:",
+      "wallet_address_text": "a la dirección de la cartera:",
+      "copy_btn_text": "Copiar",
+      "copy_toast": "Copiado",
+      "deposit_success_title": "El pago se realiza con éxito.",
+      "deposit_success_description": "Hemos recibido su pago. Su saldo se ha completado.",
+      "deposit_success_button_text": "Cerrar",
+      "deposit_error_title": "Pago no recibido.",
+      "deposit_error_description": "Inténtelo de nuevo. Si tiene algún problema, póngase en contacto con el servicio de asistencia.",
+      "deposit_error_button_text": "Proponer un nuevo acuerdo",
+      "deposit_timeout_title": "Pago no recibido.",
+      "deposit_timeout_description": "Por favor, intenta pagar de nuevo. Si tienes algún problema, por favor contacta con soporte.",
+      "moderation_title": "Transferencia en curso",
+      "moderation_description": "Tiempo de procesamiento:\nTransferencias con tarjeta bancaria y Crypto normalmente en 20-30 minutos.\nTransferencias SEPA normalmente en 1-3 días laborables.",
+      "pay_button_hint": "Pulse el botón de abajo para pagar.",
+      "pay_button_text": "Ir al pago",
+      "tether_trc20_qrcode_text": "Tenga en cuenta que esta billetera <b>USDT</b> está en la red <b>TRC-20</b>.",
+      "tether_erc20_qrcode_text": "Tenga en cuenta que esta billetera <b>USDT</b> está en la red <b>ERC-20</b>.",
+      "bitcoin_qrcode_text": "Tenga en cuenta que esta billetera <b>Bitcoin</b> está en la red <b>Bitcoin</b>.",
+      "ethereum_qrcode_text": "Tenga en cuenta que esta billetera <b>Ethereum</b> está en la red <b>Ethereum (ERC20)</b>.",
+      "static_wallet_address_text": "Esta es tu dirección de depósito privada. Cualquier depósito que hagas aparecerá en tu balance después de la confirmación blockchain.",
+      "static_wallet_minimum_deposit": "Depósito mínimo: <strong>{0}</strong> después de las comisiones de red.Depositar menos supondrá una pérdida de fondos sin posibilidad de reembolso.",
+      "static_wallet_hint": "*Nota: si el tipo de cambio cambia durante la transacción, puede recibir una cantidad diferente a la que envió.",
+      "transaction_commission": "Comisión de transacción",
+      "crypto_network": "<strong>Red: {0}</strong>. Los fondos se perderán con transacciones a través de otras redes.<br><br>* Si el tipo de cambio cambia durante la transacción, es posible que reciba una cantidad diferente a la que envió.",
+      "refill_amount": "Monto de recarga",
+      "back_button_text": "Volver"
+    },
+    "security_alert": {
+      "title": "Alerta de seguridad",
+      "text": {
+        "line_1": "Su operación ha sido cancelada en Steam. Si usted no inició la cancelación, entonces su cuenta ha sido comprometida. Para evitar este problema, no acepte la operación ahora y siga los pasos siguientes:",
+        "line_2": "Cambie su contraseña en la configuración de su cuenta de Steam.",
+        "line_3": "Revoque la clave API generada por los atacantes. Puede hacerlo utilizando el <a target=\"_blank\" href=\":url\">enlace</a>. No es necesario que genere una nueva clave.",
+        "line_4": "Cambie su URL de operación. Puede hacerlo <a href=\":url\" target=\"_blank\">aquí</a>.",
+        "line_5": "En el futuro, tenga cuidado cuando autorice en sitios de terceros utilizando su cuenta de Steam. A menudo son los culpables de que su cuenta sea pirateada. Siempre puede encontrar el historial de inicio de sesión de su cuenta de Steam <a href=\":url\" target=\"_blank\">aquí</a>.",
+        "line_6": "Ahora su cuenta está segura y puede seguir utilizando nuestro sitio."
+      },
+      "ok_button_text": "Ok",
+      "dont_show_this_button_text": "No volver a mostrarme esto"
+    },
+    "bonus": {
+      "header_title": "¡Consigue tus $10 ahora!",
+      "header_description": "Vende máscaras en SKIN.LAND para recoger tu bono",
+      "form_description": "Ingresa un código, lo obtuviste de tu influencer favorito.",
+      "form_hint": "¿No tienes un código? Usa este:",
+      "form_field_placeholder": "Código",
+      "form_button_label": "Activar bono",
+      "success_title": "¡Bono activado!",
+      "success_description": "Vende tus primeras máscaras y obtén una bonificación en tu saldo",
+      "success_button_label": "¡Estupendo!",
+      "footer_button_label": "¿Cómo funciona?",
+      "footer_description": "¡Haz tu primera transacción vendiendo máscaras y obtén $$$ en tu saldo! ¡Tan sencillo como eso!",
+      "footer_table_sell": "Rebaja: {0}",
+      "footer_table_take": "Toma extra: {0}",
+      "error_first_sell": "La bonificación no se puede aplicar porque sólo funciona para una primera venta de pieles.",
+      "header_button_text": "Usar código promocional"
+    },
+    "bonus_reminder": {
+      "table_trade": "Intercambio <b>{0}</b>",
+      "table_bonus": "Bono <b>{0}</b>",
+      "title": "¡Bono de máscaras de primera venta",
+      "title_bonus": "activado!",
+      "description": "Artículos seleccionados por {0}, agregue otros {1} para obtener un bono de {2}",
+      "reached_description": "Artículos seleccionados por {0}, recibirás un bono de {1}"
+    },
+    "welcome": {
+      "signup_completion": {
+        "title": "¡Le damos la bienvenida a Skin Land!",
+        "description": "Introduzca su URL comercial y su dirección de correo electrónico",
+        "first_card_title": "Seguridad",
+        "first_card_description": "Le enviaremos códigos de verificación que podrá utilizar para confirmar las retiradas.",
+        "second_card_title": "Política de no spam",
+        "second_card_description": "No le aburriremos con boletines informativos. Solo recibirá las noticias más importantes.",
+        "input_label": "Su dirección de correo electrónico",
+        "input_hint": "Al hacer clic en Continuar, acepta nuestros {0}, y también confirma que ha leído nuestra {1}.",
+        "tos_text": "Términos y condiciones",
+        "privacy_policy_text": "Política de privacidad",
+        "primary_button_text": "Continuar",
+        "secondary_button_text": "Hacerlo después",
+        "first_step": "Introduzca la URL de su comercio",
+        "second_step": "Introduzca su dirección de correo electrónico",
+        "incorrect_trade_url": "URL comercial incorrecta"
+      },
+      "email_verification": {
+        "title": "Verificación de la dirección de correo electrónico",
+        "description": "Le hemos enviado un correo electrónico a {0}\n\nTiene que verificar la dirección de correo electrónico siguiendo un enlace en el correo electrónico. Si no encuentra el correo electrónico, compruebe su carpeta de correo no deseado o de correo masivo.\n\nSin la verificación, no podrá realizar ninguna transacción financiera.",
+        "resend_button_text": "Reenviar correo electrónico",
+        "update_description": "Si desea actualizar su dirección de correo electrónico, siga este enlace:",
+        "update_button_text": "Actualizar la dirección de correo electrónico",
+        "primary_button_text": "OK"
+      },
+      "email_update": {
+        "title": "Actualización de la dirección de correo electrónico",
+        "description": "Introduzca su dirección de correo electrónico para la verificación.\n\nLa dirección de correo electrónico debe ser válida. Aquí es donde recibirá los recibos de todas sus transacciones y los códigos de verificación para confirmar las retiradas.",
+        "input_label": "Su dirección de correo electrónico",
+        "primary_button_text": "Guardar y continuar",
+        "secondary_button_text": "Cancelar"
+      },
+      "verification_success": {
+        "title": "¡Dirección de correo electrónico\nverificada con éxito!",
+        "primary_button_text": "¡Genial!"
+      },
+      "verification_error": {
+        "title": "La verificación de la dirección de correo electrónico ha fallado.",
+        "description": "El enlace está caducado o roto. Espere a que le llegue un nuevo correo electrónico si ya lo ha solicitado, o solicite un nuevo enlace aquí:",
+        "verify_button_text": "Verificar la dirección de correo electrónico",
+        "primary_button_text": "OK"
+      }
+    },
+    "error": {
+      "title": "Error",
+      "description": "No se pudo obtener una captura de pantalla debido a \"problemas de Steam\". Pero aún puedes mirar la piel en el juego.\nEstamos trabajando en este problema y pronto tendremos una solución alternativa.",
+      "button_text": "Cerrar"
+    },
+    "buy_now": {
+      "success_title": "El pago se realiza con éxito.",
+      "success_description": "Las skins se han comprado correctamente. Puedes encontrarlas en la sección Transacciones de tu perfil.",
+      "success_button_text": "Ir a comprar",
+      "pay_button_text": "Pagar con saldo"
+    },
+    "login": {
+      "title": "Se requiere autorización",
+      "instructions": "Inicie sesión a través de Steam para utilizar el sitio web.",
+      "benefits": "¡Es rápido y fácil!"
+    },
+    "unauthorized": {
+      "title": "Inicie sesión para continuar",
+      "description": "Inicie sesión a través de su perfil de Steam para seguir utilizando el sitio"
+    },
+    "cookie_policy": {
+      "text": "Utilizamos cookies para mejorar su experiencia en Skin.Land según se describe en nuestra {0}. Al continuar utilizando este sitio web, nos da su consentimiento para el uso de cookies.",
+      "text_link": "Política de cookies",
+      "button_accept_all": "Aceptar todo",
+      "button_accept_essentials": "Aceptar solo esenciales",
+      "button_customize": "Personalizar",
+      "button_save": "Guardar y aplicar",
+      "essential_cookies_title": "Cookies estrictamente necesarias",
+      "essential_cookies_text": "Estas cookies nos ayudan a ejecutar el sitio web correctamente. Este tipo de cookie no se puede desactivar.",
+      "functional_cookies_title": "Cookies funcionales",
+      "functional_cookies_text": "Estas cookies nos permiten recordar sus ajustes personales (por ejemplo, el idioma).",
+      "performance_cookies_title": "Cookies de rendimiento",
+      "performance_cookies_text": "Estas cookies nos permiten mejorar el servicio mediante el análisis del uso del sitio web.",
+      "targeting_cookies_title": "Cookies de marketing/objetivo",
+      "targeting_cookies_text": "Estas cookies nos permiten hacer que la publicidad sea más relevante para sus intereses."
+    }
+  },
+  "faq_page": {
+    "default_answer": "Encuentra respuestas a todas tus preguntas sobre la piel en la página de preguntas frecuentes de Skin.Land. Obtén la información que necesitas para comprar y vender con confianza. Por supuesto, también puedes contactar a nuestro soporte por correo electrónico en help{'@'}skin.land",
+    "back_button_text": "Volver a las preguntas frecuentes"
+  },
+  "blog_page": {
+    "page_title": "Artículos",
+    "top_articles": "Artículos principales",
+    "title": "Novedades y Tendencias de skins para CS:GO, Dota 2 y Rust - Skin.Land Blog",
+    "meta_description": "Mantente informado y al día de las últimas novedades y tendencias del mundo de las pieles con el blog de Skin.Land"
+  },
+  "article_page": {
+    "comments": "comentarios",
+    "articles": "Artículos",
+    "write_comment": "Escriba un comentario",
+    "send_comment_button_text": "Enviar",
+    "user_name_input_placeholder": "Su nombre",
+    "user_comment_input_placeholder": "Su comentario",
+    "latest_articles_title": "Nuestros otros grandes artículos",
+    "page_navigation": "Navegación",
+    "app_title": "Blog de Skin.Land"
+  },
+  "author_page": {
+    "follow_on_linkedin": "Seguir en LinkedIn",
+    "total_articles_text": "Artículos",
+    "about_author": "Acerca del autor",
+    "articles_by": "artículos de",
+    "updated_label": "Actualizado:"
+  },
+  "welcome_page": {
+    "page_title": "Comprar y vender Skins y objetos de CS:GO - Al instante, de forma segura y las 24 horas",
+    "page_description": "Haz que comprar, vender e intercambiar Skins de CS:GO sea más rápido y fácil. Todas las transacciones están protegidas con el más alto nivel de medidas de seguridad.",
+    "title": "Una forma mejor de comerciar con skins de CS:GO",
+    "description": "Compra, vende e intercambia skins de manera más fácil y rápida. Todas las transacciones están protegidas con los métodos de protección más altos",
+    "try_now": "Prueba ahora",
+    "bloggers_title": "Confianza de los bloggers más grandes y la comunidad de CS:GO",
+    "upgrade_skins": "Mejora tus skins con skin.land",
+    "store": {
+      "title": "Tienda",
+      "description": "Nuestra tienda facilita y agiliza el proceso de compra de objetos. Aprovecha:",
+      "first_benefit": {
+        "info": "Ofrecemos precios favorables para tus skins"
+      },
+      "second_benefit": {
+        "info": "Nuestro servicio es transparente, sin comisiones ocultas"
+      },
+      "third_benefit": {
+        "info": "Trabajamos las 24 horas del día para garantizar pagos rápidos"
+      },
+      "fourth_benefit": {
+        "info": "Priorizamos prácticas legales y seguras en nuestro servicio"
+      }
+    },
+    "benefits": {
+      "first_cell": {
+        "caption": "10%",
+        "description": "hasta un 10% de bonificación en la primera venta de skins"
+      },
+      "second_cell": {
+        "caption": "80k",
+        "description": "Skins de CS:GO, Dota 2 y Rust en nuestro sitio web"
+      },
+      "third_cell": {
+        "caption": "30seg",
+        "description": "desde iniciar sesión hasta realizar una compra"
+      },
+      "fourth_cell": {
+        "caption": "24/7",
+        "description": "soporte en línea, tiempo de respuesta inferior a 5 minutos"
+      }
+    },
+    "best_offer": {
+      "title": "Mejor oferta",
+      "description": "Sigue el precio y la diferencia de skins en el mercado de Steam para obtener la mejor oferta"
+    }
+  },
+  "cart_page": {
+    "title": "Carrito",
+    "meta_title": "Cart - Comprar pieles en Skin.Land",
+    "meta_description": "Administre fácilmente sus compras de máscaras para juegos populares como CS: GO, Dota 2 y Rust con Skin.Land Market",
+    "toast_added_to_cart": "<strong>{skin}</strong> ha sido añadido a tu carrito",
+    "toast_removed_from_cart": "<strong>{skin}</strong> ha sido eliminado de tu carrito",
+    "content": {
+      "items": "{0} artículo | artículos",
+      "clear_button": "Borrar el carrito",
+      "checkout_button": "Pago",
+      "no_items": "No hay artículos en la cesta",
+      "image_popup": {
+        "tag_name": "Etiqueta de nombre:",
+        "show_on_bot_button": "Mostrar en el bot",
+        "inspect_in_game_button": "Inspeccionar en el juego",
+        "screenshot_button": "Captura de pantalla"
+      },
+      "stickers_info_total": "Total:",
+      "unavailable_items": "Artículo no disponible | Artículos no disponibles",
+      "clear_unavailable_button": "Borrar no disponible"
+    },
+    "sidebar": {
+      "items_count": "artículo | artículos",
+      "not_enough_balance_title": "¡Saldo insuficiente!",
+      "not_enough_balance_description": "Recargue su saldo con {0}{1} para realizar una compra.",
+      "not_enough_balance_description_converted": "Recargue su saldo con {0}{1} ({2}{3}) para realizar una compra.",
+      "not_enough_balance_button": "Recarga de saldo",
+      "pay_button": "Pagar con saldo",
+      "go_to_market_button": "Agregar skins al carrito",
+      "trade_lock_title": "Bloqueo de intercambio",
+      "trade_lock_text": "Se enviará una oferta de intercambio para las pieles con un «Bloqueo de intercambio» después de que se desbloqueen y tendrás <b>5 horas para aceptar el intercambio.</b> <br>Puedes seguir la fecha y hora en que se desbloqueará la skin en la sección Transacciones de tu Perfil haciendo clic en el artículo comprado.<br><br>Si no acepta la operación en el plazo especificado, la operación se cancelará y el dinero se devolverá a su saldo.",
+      "p2p_title": "P2P",
+      "p2p_text": "Tendrá 12 horas para aceptar el intercambio después de que el vendedor lo envíe. No aceptar el intercambio resultará en una multa del 2%.",
+      "success_title": "Compra exitosa",
+      "success_description": "Las skins se han comprado correctamente. Puedes encontrarlas en la sección Transacciones de tu perfil.",
+      "success_button": "Ir a comprar"
+    }
+  },
+  "cart_modal": {
+    "title": "Carrito",
+    "empty_text": "Nada en el carrito",
+    "items_for": "{count} artículo para | {count} artículos para",
+    "checkout_button_text": "Pagar",
+    "unlocked": "Desbloqueado",
+    "locked": "Bloqueado"
+  },
+  "skin_page": {
+    "meta_title": "Comprar {name} - precio de {price} - Comprar skins en Skin.Land",
+    "meta_description": "En nuestra tienda de máscaras puede comprar {name} por precio de {price}. Una gran variedad de pieles en el mercado de la piel.",
+    "inspect_in_game_button": "Inspeccionar en el juego",
+    "screenshot_button": "Captura de pantalla",
+    "type_label": "Tipo",
+    "rarity_label": "Rareza",
+    "category_label": "Categoría",
+    "quality_label": "Calidad",
+    "hero_label": "Héroe",
+    "in_other_categories_label": "Skins listadas en Otras categorías",
+    "best_offer_label": "Mejor oferta",
+    "buy_button": "Comprar ahora",
+    "add_to_cart_button": "Agregar al carrito",
+    "in_cart_button": "En el carro",
+    "on_sale_label": "en oferta",
+    "from_label": "Desde",
+    "filter_label": "Filtros",
+    "reset_filters_button": "Restablecer filtros",
+    "apply_filters_button": "Aplicar filtros",
+    "offers_count_label": "{count} oferta | {count} ofertas",
+    "no_offers": "No se han encontrado ofertas.",
+    "suggestions_title": "También le puede gustar",
+    "sort_unlock_early_label": "Desbloqueo temprano",
+    "sort_unlock_later_label": "Desbloquear más tarde",
+    "sort_price_label": "Precio",
+    "sort_float_label": "Float",
+    "on_sale_from_label": "en oferta a partir de",
+    "locked": "Bloqueado",
+    "unlocked": "Desbloqueado",
+    "out_of_stock": "Agotado",
+    "stickers": "pegatina | pegatinas"
+  },
+  "screenshot_page": {
+    "title": "La captura de pantalla se está cargando",
+    "description": "En promedio, tarda de 15 a 20 segundos, pero en casos raros puede tomar más tiempo"
+    },
+  "trade_info": {
+    "time_left": "Tiempo restante:",
+    "contact_support_button_text": "Contactar soporte",
+    "new_deal_button_text": "Proponer un nuevo acuerdo",
+    "client_satisfied_button": "Escriba su opinión en",
+    "statuses": {
+      "credited_to_balance_title": "Error de pago",
+      "credited_to_balance_description": "El dinero se ha acreditado en su saldo. Por favor, contacte con soporte para más detalles.",
+      "success_title": "Transferencia exitosa",
+      "success_description_no_payout": "El dinero se ha acreditado en su saldo.",
+      "success_description": "El dinero se transfirió a la billetera especificada.",
+      "client_satisfied_text": "\nPor favor, déjenos una reseña haciendo clic en el botón de abajo.",
+      "contact_support_title": "Error de pago",
+      "contact_support_description": "Error de pago. Por favor, contacte con soporte.",
+      "timeout_title": "Se acabó el tiempo.",
+      "timeout_description": "Se acabó el tiempo. Inicie una nueva transacción comercial.",
+      "canceled_title": "La operación se ha cancelado",
+      "canceled_description": "La operación se ha cancelado en Steam. \nSi aún no lo ha hecho, póngase en contacto con el servicio de asistencia.",
+      "in_progress_title": "Transferencia en progreso",
+      "in_progress_description": "Tiempo de procesamiento:\nLas transferencias con tarjeta bancaria y de criptomonedas suelen tardar entre 20 y 30 minutos.\nLas transferencias SEPA suelen tardar entre 1 y 3 días hábiles."
+    }
+  },
+  "privacy_policy_page": {
+    "title": "Política de privacidad - Su información está a salvo - Skin.Land",
+    "meta_description": "Entiende cómo Skin.Land protege tu información y privacidad de datos con nuestra clara y transparente Política de Privacidad."
+  },
+  "terms_of_service_page": {
+    "title": "Conditions d'utilisation - Skin.Land",
+    "meta_description": "Découvrez les règles d'utilisation de Skin.Land, y compris notre politique d'achat et de vente de skins."
+  },
+  "contacts_page": {
+    "title": "Contactos - Contacto - Skin.Land",
+    "breadcrumb_title": "Contactos",
+    "meta_description": "¿Tiene una pregunta o sugerencia para Skin.land? Póngase en contacto con nuestro equipo de soporte a través de nuestra página de contacto."
+  },
+  "buy_csgo_skins_with_credit_card_page": {
+    "title": "Compra skins de CS:GO con tarjeta de crédito en Skin.Land",
+    "breadcrumbs_title": "Comprar skins de CS:GO con tarjeta de crédito",
+    "meta_description": "En la tienda Skin.Land puedes comprar skins de CS:GO con tarjeta de crédito. Elige una skin y paga con tarjeta de crédito al instante las 24 horas del día, los 7 días de la semana."
+  },
+  "buy_csgo_skins_with_crypto_page": {
+    "title": "Compra skins de CS:GO/CS2 por criptomonedas en Skin.Land",
+    "breadcrumbs_title": "Compra skins de CS:GO con criptomonedas",
+    "meta_description": "En la tienda Skin.Land puedes comprar skins de CS:GO con criptomonedas. Elige una skin y paga por ella con criptomoneda al instante las 24 horas del día, los 7 días de la semana."
+  },
+  "sell_csgo_cs2_skins_with_crypto": {
+    "title": "Vender Skins y Objetos de CS:GO/CS2 por Cripto - Skin.Land",
+    "breadcrumbs_title": "Vender Skins de CS:GO/CS2 por Criptomoneda",
+    "meta_description": "Busca dónde vender skins y objetos de CS:GO/CS2 para cripto? Skin.Land es el mejor sitio para vender skins de CS:GO y CS2 con criptomonedas"
+  },
+  "cookie_policy_page": {
+    "title": "Política de cookies - Su información está segura - Skin.Land",
+    "meta_description": "Conozca acerca de la Política de cookies de Skin.Land."
+  }
+}

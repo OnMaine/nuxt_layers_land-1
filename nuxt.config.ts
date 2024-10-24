@@ -7,7 +7,59 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
 
-  modules: ['@nuxt/image'],
+  i18n: {
+    lazy: true,
+    strategy: 'prefix_and_default',
+    defaultLocale: 'en',
+    locales: [
+      {
+        code: 'en',
+        iso: 'en',
+        name: 'English',
+      },
+      {
+        code: 'es',
+        iso: 'es',
+        name: 'Spanish',
+      },
+      {
+        code: 'pt',
+        iso: 'pt',
+        name: 'Portuguese',
+      },
+      {
+        code: 'de',
+        iso: 'de',
+        name: 'Deutsch',
+      },
+      {
+        code: 'fr',
+        iso: 'fr',
+        name: 'French',
+      },
+      {
+        code: 'pl',
+        iso: 'pl',
+        name: 'Polish',
+      },
+      {
+        code: 'tr',
+        iso: 'tr',
+        name: 'Turkish',
+      },
+      {
+        code: 'sv',
+        iso: 'sv',
+        name: 'Swedish',
+      },
+    ],
+    vueI18n: './i18n.config.ts',
+    compilation: {
+      strictMessage: false,
+    },
+  },
+
+  modules: ['@nuxt/image', '@nuxtjs/i18n'],
   //@ts-ignore
   image: {
     format: ['webp'],

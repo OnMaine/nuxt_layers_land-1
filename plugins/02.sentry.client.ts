@@ -6,8 +6,10 @@ import {
   browserTracingIntegration,
   replayIntegration,
 } from '@sentry/vue';
+import { useSentryConfigEvent } from '@/composables';
 
 export default defineNuxtPlugin(nuxtApp => {
+
   const router = useRouter();
   const { public: { apiBaseUrl } } = useRuntimeConfig();
 
@@ -22,6 +24,7 @@ export default defineNuxtPlugin(nuxtApp => {
         blockAllMedia: false,
       }),
     ],
+    beforeSend: (event, hint) => useSentryConfigEvent(event, hint, { process: 'client' }, nuxtApp),
     tracesSampleRate: 1.0,
     tracePropagationTargets: ['localhost'],
     replaysSessionSampleRate: 1.0,

@@ -2,18 +2,28 @@
     <div class="test">
         <h1 class="original">Original page on <b>Site 1</b></h1>
 
-        <UI-First class="first" />
+        <!-- <UI-First class="first" />
         <UI-Second class="second" />
-        <Third class="third" />
+        <Third class="third" /> -->
 
-        <div>
+        <!-- <div>
             <h2>Show value from composable: </h2>
             <p>{{ test }}</p>
+        </div> -->
+
+        <div class="pdn 1">
+            <h2>Errors </h2>
+            <button @click="handleError">trigger errors</button>
         </div>
 
         <div>
-            <button @click="throwError">Throw error</button>
+            {{ locale }} / {{ t('common.page_not_found') }} / {{ t('common.404') }} }}
         </div>
+
+        <div class="pdn 2">
+            <button @click="throwErrorServer">Throw error server</button>
+        </div>
+
 
         <nuxt-link to="/test" class="link">test page from Lib</nuxt-link>
 
@@ -22,7 +32,7 @@
             <p>{{ data }}</p>
         </div>
 
-        <NuxtImg
+        <!-- <NuxtImg
           class="weapon-logo desktop-only"
           src="/images/skins/ak47.webp"
           alt="AK-47 logo"
@@ -30,31 +40,49 @@
           width="613"
           loading="lazy"
           quality="80"
-        />
+        /> -->
     </div>
 </template>
 
 <script setup>
 
+import {
+  getErrors,
+} from '@/api';
+
 definePageMeta({
  layout: 'main',
 });
+
+const { t, locale } = useI18n();
 
 const test = useTest();
 
 log();
 
-const { data } = await useFetch('/api/test', {
-    method: 'GET',
-});
+const data = ref(null);
 
-const { data:test_fetch } = await useApi('/api/test2', {
-    method: 'GET',
-});
+// const { data } = await useFetch('/api/test', {
+//     method: 'GET',
+// });
+
+// const { data:test_fetch } = await useApi('/api/test2', {
+//     method: 'GET',
+// });
+
+const handleError = () => {
+    throw createError({ statusCode: 404, statusMessage: t('common.page_not_found') });
+    console.log(t('common.page_not_found', '', { locale: 'sv' }))
+};
 
 
-function throwError() {
-    throw new Error('Sentry Error');
+
+async function throwErrorServer() {
+    const response = await getErrors();
+
+    console.log(response);
+
+    data.value = response.data;
 }
 </script>
 
@@ -81,5 +109,14 @@ h1 {
 
 .link {
     margin: 20px;
+}
+
+.pdn {
+    margin: 30px;
+    button {
+        padding: 10px;
+        background: #35495e;
+        color: white;
+    }
 }
 </style>

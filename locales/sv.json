@@ -1,0 +1,952 @@
+{
+  "common": {
+    "page": "sidan",
+    "favourites": "Favoriter",
+    "remove_all": "Ta bort alla",
+    "popularity": "Popularitet",
+    "filters": "Filter",
+    "error": "Fel",
+    "amount": "Belopp",
+    "transaction": "{count} transaktioner | {count} transaktion | {count} transaktioner",
+    "accept_trade": "Godkänn handel",
+    "cancel_purchase": "Avbryt köp",
+    "wait_unlock": "Vänta på att föremålet ska låsas upp",
+    "accepted": "Accepterad",
+    "trade_canceled_return": "Handeln avböjd",
+    "return": "Återlämning",
+    "expired_return": "Tiden är ute",
+    "not_accepted_trade": "Du accepterade inte handeln vid angiven tidpunkt.",
+    "money_returned_back": "Dina pengar har återförts till saldot.",
+    "processing": "Bearbetning",
+    "send_error_bot_unavailable": "Boten är inte tillgänglig.",
+    "send_error_invalid_trade_url": "Du har angett fel handels-URL, eller så har du en VAC-spärr för spelet.",
+    "send_error_unknown_error": "Ett okänt fel har inträffat.",
+    "send_error_you_cant_trade": "Ditt konto har handelsbegränsningar.",
+    "send_error_other_reason": "Annan orsak.",
+    "please_check_entered_details": "Vänligen kontrollera de angivna detaljerna",
+    "sell_skins": "Sälj skins",
+    "sell": "Sälj",
+    "buy_skins": "Köp skins",
+    "buy_more_skins": "Köp fler skins",
+    "buy": "Köp",
+    "more": "Mer",
+    "faq": "Vanliga frågor",
+    "reviews": "Recension | {count} Recensioner",
+    "articles": "Artiklar",
+    "contacts": "Kontakter",
+    "login_via_steam": "Logga in via Steam",
+    "login": "Logga in",
+    "logout": "Logga ut",
+    "profile": "Profil",
+    "blog": "Blogg",
+    "transactions": "Transaktioner",
+    "withdrawal": "Uttag",
+    "refill_balance": "Fyll på saldo",
+    "refill": "Fyll på",
+    "balance": "Saldo",
+    "select_language": "Välj språk",
+    "select_currency": "Välj valuta",
+    "privacy_policy": "Sekretesspolicy",
+    "terms_of_service": "Användningsvillkor",
+    "cookie_policy": "Policy för kakor",
+    "follow_us": "Följ oss",
+    "close": "Stäng",
+    "menu": "Meny",
+    "home": "Hem",
+    "featured": "Utvalt",
+    "check_more": "Läs mer om oss på",
+    "market": "Köp skins",
+    "page_not_found": "Sidan kunde inte hittas",
+    "too_many_requests": "För många förfrågningar. Försök igen senare.",
+    "error_corrupted": "Oj, ett fel inträffade, vänligen ladda om sidan",
+    "save": "Spara",
+    "edit": "Redigera",
+    "verify": "Verifiera",
+    "start": "Start",
+    "time_ago": {
+      "just_now": "just nu",
+      "ago": "{0} sedan",
+      "in": "om {0}",
+      "month": "månad | månader",
+      "year": "år | år",
+      "day": "dag | dagar",
+      "week": "vecka | veckor",
+      "hour": "timme | timmar",
+      "minute": "minut | minuter",
+      "second": "sekund | sekunder"
+    },
+    "add_to_favourites": "Lägg till i favoriter",
+    "zoom_skin_image": "Zoom hudbild",
+    "like_article": "Gilla artikel",
+    "social_link": "{name} social länk",
+    "regular": "Vanlig",
+    "maintenance": {
+      "meta_title": "Underhåll",
+      "title": "Vi är snart tillbaka!",
+      "description": "Vi beklagar besväret, men vi utför för närvarande underhåll. Vi kommer snart att vara tillbaka online!"
+    },
+    "404": "404 Hittades Inte",
+    "subscribers": "Prenumeranter",
+    "starting_at": "Från",
+    "crypto": "Krypto"
+  },
+  "filters": {
+    "selected": "{count} Valda",
+    "price_from": "Pris från",
+    "price_to": "Pris till",
+    "float_from": "Float från",
+    "float_to": "Float till",
+    "rarity": "Raritet",
+    "exterior": "Ytter",
+    "hold": "Håll kvar",
+    "phase": "Fas",
+    "category": "Kategori",
+    "stickers": "Dekaler",
+    "type": "Typ",
+    "hero": "Hjälte",
+    "slot": "Plats",
+    "quality": "Kvalitet",
+    "reset": "Återställ filter",
+    "apply": "Använd filter",
+    "search": "Sök",
+    "no_results": "Inga hjältar hittades. Var god uppdatera din sökförfrågan.",
+    "no_hold": "Håll inte kvar",
+    "hold_1": "1 dag",
+    "hold_2": "2 dagar",
+    "hold_3": "3 dagar",
+    "hold_4": "4 dagar",
+    "hold_5": "5 dagar",
+    "hold_6": "6 dagar",
+    "hold_7": "7 dagar",
+    "hold_8": "8 dagar",
+    "without_statrack": "Utan StatTrak™",
+    "souvenir": "Souvenir",
+    "without_souvenir": "Utan Minne",
+    "nametag": "Namnbricka",
+    "any_stickers": "Alla dekaler",
+    "expensive_stickers": "Dyra dekaler",
+    "show_favourites": "Visa favoriter",
+    "sort_by_newest": "Nyast",
+    "sort_by_oldest": "Äldst"
+  },
+  "footer": {
+    "buy_csgo_skins": "Köp CS:GO skins",
+    "buy_dota_skins": "Köp Dota 2 skins",
+    "buy_rust_skins": "Köp Rust skins",
+    "buy_with_crypto": "Köp med krypto",
+    "buy_with_credit_card": "Köp med kreditkort",
+    "copyright": {
+      "ownership": "<p>Skin.Land website is owned and operated by group of companies:<br>- Pixel Place Limited (registered company no is 3154102), registered at room 8, S-V, 6/F Valiant Industrial Center 2-12 Pci Wan St., Fo Tan, Hong Kong.<br>- SieraLink Limited, registered in Cyprus with registered address 1 Apriliou 52, Athienou, Larnaca, Cyprus with registered company number (HE 435301).</p>",
+      "trademark": "<p>Copyright © Skin.Land {year}. All Rights Reserved.</p><p>Powered by Steam. Not affiliated with Valve Corp.</p>"
+    },
+    "sell_with_crypto": "Sälj skins för krypto",
+    "sell_csgo_skins": "Sälj CS:GO skins",
+    "sell_dota_skins": "Sälj Dota 2 skins",
+    "sell_rust_skins": "Sälj Rust skins"
+  },
+  "main_page": {
+    "welcome": {
+      "title": "Köp och sälj",
+      "skins": "skinn",
+      "sign_in": "Logga in och handla med skins",
+      "trade": "Byt skinn",
+      "advantages": {
+        "best_prices": "Bästa priserna",
+        "no_commission": "Inga dolda provisioner",
+        "service": "Service 24/7",
+        "security": "100% säker",
+        "average_time": "5 minuters genomsnittlig utbetalningstid"
+      }
+    },
+    "recent_deals": {
+      "title": "Senaste erbjudanden"
+    },
+    "citation" : {
+      "read": "Läs hela intervjun",
+      "description": "Jag väljer <b>Skin.Land</b> som den CS2-marknadsplats som bäst uppfyller mina behov - den erbjuder bra erbjudanden till låga priser kombinerat med snabba transaktioner och en pålitlig plattform.",
+      "signature": "FalleN, CS-legenden"
+    },
+    "steps": {
+      "title": "Så här säljer du skins på Skin.Land",
+      "first_step": {
+        "title": "Logga in via Steam",
+        "description": "Konfigurera handels-URL och e-postadress på ditt konto"
+      },
+      "second_step": {
+        "title": "Välj skins",
+        "description": "Få en uppskattning av varje skin och välj de du vill sälja"
+      },
+      "third_step": {
+        "title": "Få dina pengar",
+        "description": "Välj en betalningsmetod och få dina pengar eller krypto direkt, dygnet runt"
+      }
+    },
+    "bloggers": {
+      "title": "Bloggare rekommenderar oss",
+      "watch": "Kolla nu"
+    },
+    "questions": {
+      "title": "Har du frågor?"
+    },
+    "qualities": {
+      "first_quality": {
+        "description": "Sålda skins"
+      },
+      "second_quality": {
+        "description": "Skins köpta"
+      },
+      "third_quality": {
+        "description": "Nöjda användare"
+      }
+    },
+    "benefits": {
+      "title": "Vi gör vårt bästa",
+      "first_benefit": {
+        "info": "Vi erbjuder de <span class=\"color--violet\">bästa priserna</span> för dina skins"
+      },
+      "second_benefit": {
+        "info": "Vi erbjuder en <span class=\"color--violet\">transparent tjänst</span> utan dolda provisioner"
+      },
+      "third_benefit": {
+        "info": "Vi jobbar dygnet runt åt dig så att du får <span class=\"color--violet\">betalningar direkt</span>"
+      },
+      "fourth_benefit": {
+        "info": "Vi skapar vår tjänst så att den är <span class=\"color--violet\">100 % säker</span>"
+      }
+    },
+    "latest_articles": {
+      "title": "Håll kontakten med de senaste nyheterna"
+    },
+    "reviews": {
+      "title": "Användare älskar vår tjänst",
+      "review": "Recensioner om",
+      "1": "Mycket dålig",
+      "1_5": "Mycket dålig",
+      "2": "Dålig",
+      "2_5": "Dålig",
+      "3": "Medel",
+      "3_5": "Medel",
+      "4": "Bra",
+      "4_5": "Utmärkt",
+      "5": "Utmärkt"
+    },
+    "seo": {
+      "title": "Köp och sälj CS2, Dota 2 och Rust Skins {'|'} CS:GO Skinbutiken - Skin.Land",
+      "description": "På marknadsplatsen Skin.Land kan du köpa och sälja skinn för CS2, CS:GO, Dota 2 och Rust! Snabba och säkra transaktioner, transparenta priser och ett stort lager!"
+    }
+  },
+  "market_page": {
+    "title": "CS:GO/CS2, Dota 2 och Rust Skinnmarknad {'|'} CS:GO - Skin.Land",
+    "meta_description": "Upptäck ett stort urval av skal för populära spel som CS:GO, Dota 2 och Rust och köp och sälj dem på Skin.Land Market.",
+    "breadcrumb_title": "CS:GO/CS2 Skinnmarknad",
+
+    "dota2": {
+      "title": "Köp Dota 2 Skins och Föremål - Dota 2-marknadsplats på Skin.Land",
+      "meta_description": "Få ett bra pris när du köper Dota 2-skinn med Skin.Land. Köp skinn enkelt, snabbt och säkert.",
+      "breadcrumb_title": "Köp Dota 2-skinn",
+      "hero_breadcrumb_title": "Köp skins i {hero}",
+      "hero_title": "Köp skins för {hero} i Dota 2",
+      "hero_description": "På den här sidan kan du köpa skinn för {hero} in Dota 2 i vår katalog. Upptäck ett stort urval av skinn och andra föremål från Steam för köp och försäljning.",
+      "type_breadcrumb_title": "Köp skins i {type}",
+      "type_title": "Köp skins för {type} i Dota 2",
+      "type_description": "På den här sidan kan du köpa skinn för {type} in Dota 2 i vår katalog. Upptäck ett stort urval av skinn och andra föremål från Steam för köp och försäljning."
+    },
+
+    "csgo": {
+      "title": "Köpa CS:GO Skins och Föremål {'|'} Billiga CS2 Skins Till Salu - Skin.Land",
+      "meta_description": "Skin.Land hjälper dig att köpa CS:GO-skins och föremål billigt för riktiga pengar. Vi har låga priser, omedelbara uttag och många betalningsmetoder.",
+      "breadcrumb_title": "Köp CS:GO - skinn",
+      "category_or_type_breadcrumb_title": "Köp skins i {filter}",
+      "category_or_type_title": "Köp skins för {filter} i CS:GO",
+      "category_or_type_description": "På den här sidan kan du köpa skinn för {filter} in CS:GO i vår katalog. Upptäck ett stort urval av skinn och andra föremål från Steam för köp och försäljning."
+    },
+
+    "rust": {
+      "title": "Köp Rust Skins och Föremål {'|'} Billiga Rust Skins Till Salu - Skin.Land",
+      "meta_description": "Marknadsplatsen Skin.Land hjälper dig att köpa Rust-skins på ett lönsamt sätt. Vi erbjuder ett stort urval av Rust-skinn och högkvalitativ service.",
+      "breadcrumb_title": "Köp Rust skinn",
+      "category_or_type_breadcrumb_title": "Köp skins i {filter}",
+      "category_or_type_title": "Köp skins för {filter} i Rust",
+      "category_or_type_description": "På den här sidan kan du köpa skinn för Misc in Rust i vår katalog. Upptäck ett stort urval av skinn och andra föremål från Steam för köp och försäljning."
+    },
+
+    "cs2": {
+      "title": "Köp CS2 Skins - Skin.Land",
+      "meta_description": "Skin.Land hjälper dig att köpa CS2 skins billigt för riktiga pengar. Vi har låga priser, omedelbara uttag och många betalningsmetoder.",
+      "breadcrumb_title": "Köp CS2 Skins"
+    },
+
+    "offers": "{0} till salu från",
+    "no_results": {
+      "info": "Inget hittades",
+      "instructions": "Ändra dina filter eller återställ dem"
+    },
+    "no_favourites_with_selected_filters": "Du har inga favoritobjekt med valda filter. Du kan rensa dina filter för att se alla dina favoriter för det valda spelet",
+    "no_favourites": "Du har inte lagt till några objekt i favoriter för {game} ännu",
+    "added_favourite": "<strong>{skin}</strong> har lagts till i din Favoritlista",
+    "removed_favourite": "<strong>{skin}</strong> har tagits bort från din Favoritlista"
+  },
+  "sell_skins": {
+    "meta_title": "Sälj dina CS:GO, Dota 2 och Rust Skins på - Skin.Land",
+    "meta_description": "Få det bästa värdet för dina skinn genom att sälja dem på Skin.Land. Enkelt, snabbt och säkert.",
+    "index": {
+      "page_title": "Utbetalning av CS:GO och CS2 skins",
+      "meta_title": "Bästa webbplatsen för omedelbar utbetalning av CS: GO och CS2 Skins i {year}",
+      "meta_description": "Undrar du hur du kan lösa in dina CS:GO- och CS2-skins snabbt och säkert? Vår webbplats är det bästa valet för att förvandla dina skins till kontanter och erbjuder en mängd olika betalningsalternativ."
+    },
+    "csgo": {
+      "page_title": "Sälj CS:GO Skins",
+      "meta_title": "Sälja CS:GO/CS2 Skins och Föremål för Riktiga Pengar - Skin.Land",
+      "meta_description": "På handelsplattformen Skin.Land kan du sälja CS:GO-skins för riktiga pengar. Snabb försäljning av CS:GO-object med bekvämt uttag av pengar och högkvalitativ service."
+    },
+    "dota2": {
+      "page_title": "Sälj Dota 2 skins",
+      "meta_title": "Sälj Dota 2-skins för riktiga pengar - Skin.Land",
+      "meta_description": "På handelsplattformen Skin.Land kan du sälja Dota 2-skins för riktiga pengar. Snabb försäljning av Dota 2-object med bekvämt uttag av pengar och högkvalitativ service."
+    },
+    "rust": {
+      "page_title": "Sälj Rust Skins",
+      "meta_title": "Sälj Rust-skins för riktiga pengar - Skin.Land",
+      "meta_description": "På handelsplattformen Skin.Land kan du sälja Rust-skins för riktiga pengar. Snabb försäljning av Rust-object med bekvämt uttag av pengar och högkvalitativ service."
+    },
+    "cs2": {
+      "page_title": "Sälj CS2 skins",
+      "meta_title": "Sälj CS2 Skins för riktiga pengar - Skin.Land",
+      "meta_description": "På Skin.Lands marknadsplats kan du sälja CS2 Skins för riktiga pengar. Hos oss får du ett förmånligt pris för att sälja dina CS2-objekt."
+    },
+    "sign_in_block": "Logga in med Steam för att börja sälja skins.",
+    "items_not_accepted_title": "{count} artikel accepterades inte för försäljning | {count} artiklar accepterades inte för försäljning",
+    "items_not_accepted_description": "Vår tjänst köpte inte dessa skins, eller så går det inte att handla med dem.",
+    "items_not_available_for_sell": "Du har: {0} föremål som inte är tillgängliga för försäljning.",
+    "items_not_available_for_sell_description": "Vår tjänst köper inte dessa skins eller så kan de inte bytas.",
+    "items_not_available_for_sell_button": "Uppdatera",
+    "no_items_title": "Du har inga objekt att handla.",
+    "no_items_description": "Det finns inga objekt i ditt lager som vi kan acceptera. De kanske inte går att handla med dem eller så vill inte spelare ha dem.",
+    "no_items_button": "Uppdatera",
+    "search_field_placeholder": "Sök efter skins",
+    "search_field_clear_button": "Rensa",
+    "refresh_button_text": "Uppdatera",
+    "edit_trade_url_button_text": "Redigera handels-URL",
+    "no_results": "Inga resultat hittades för ’{0}’.",
+    "select_all_skins": "Välj alla",
+    "sorting": {
+      "sort_by_price_text": "Pris",
+      "sort_by_newest_text": "Nyaste",
+      "select_option_text": "Välj ett alternativ",
+      "no_results": "Inget hittades"
+    },
+    "payment": {
+      "steps": {
+        "payment_method": {
+          "title": "Betalningsmetod"
+        },
+        "payment_details": {
+          "title": "Betalningsinformation"
+        },
+        "payment_confirmation": {
+          "title": "Betalningsbekräftelse"
+        },
+        "confirmation_on_steam": {
+          "title": "Bekräftelse på Steam"
+        },
+        "payment_transfer": {
+          "title": "Betalningsöverföring"
+        }
+      },
+      "forms": {
+        "fields": {
+          "first_name": "Förnamn",
+          "last_name": "Efternamn",
+          "iban": "IBAN",
+          "card_number": "Ditt kortnummer",
+          "expiration_date": "Bankkortets utgångsdatum (MM/ÅÅ)",
+          "country": "Land för bankkort",
+          "date_of_birth": "Födelsedatum (ÅÅÅÅ/MM/DD)",
+          "bitcoin_wallet": "Din Bitcoin-plånbok",
+          "ethereum_wallet": "Din Ethereum-plånbok",
+          "tether_wallet": "Din Tether-plånbok"
+        }
+      },
+      "details": {
+        "description": "Det kan ta upp till tre arbetsdagar för banken att kreditera din betalning. Vänligen vänta på transaktionen.",
+        "bonus": "Bonus",
+        "transaction_commission": "Transaktionsavgift",
+        "you_receive": "Du får",
+        "crypto_amount": "Krypto-belopp"
+      },
+      "confirmation": {
+        "timer_description": "Du har {0} minuter att acceptera handeln, annars annulleras den.",
+        "details_description": "För en säker affär, kontrollera:\n— Bot-namn\n— Bot-nivå\n— Om affären avbröts omedelbart och du inte avbröt den själv, har ditt konto blivit hackat. Kontakta supporten, så hjälper vi dig.",
+        "uniq_id": "Unikt ID",
+        "bot_name": "Robotnamn",
+        "bot_level": "Robotnivå",
+        "accept_trade_title": "Acceptera handel",
+        "accept_trade_browser": "I webbläsaren",
+        "accept_trade_steam": "På Steam"
+      },
+      "transfer": {
+        "success_title": "Överföring lyckad!",
+        "success_description": "Pengarna har krediterats till ditt saldo.",
+        "button_text": "Föreslå en ny handel",
+        "statuses": {
+          "credited_to_balance_title": "Fel vid utbetalning",
+          "credited_to_balance_description": "Pengarna har krediterats ditt saldo. Vänligen kontakta supporten för detaljer.",
+          "ignored_title": "Fel vid utbetalning",
+          "ignored_description": "Fel vid utbetalning. Vänligen kontakta supporten.",
+          "success_title": "Överföring lyckad!",
+          "success_description_no_payout": "Pengarna har krediterats ditt saldo.",
+          "success_description": "Pengarna överfördes till den plånbok du angav.",
+          "progress_title": "Överföring pågår",
+          "progress_description": "Du kommer att få din pengaöverföring inom 5 minuter."
+        }
+      },
+      "no_skins_selected": "Inga skins har valts",
+      "selected_skins": "{count} objekt för",
+      "next_button_text": "Nästa",
+      "back_button_text": "Bakåt",
+      "minimum_trade_amount": "Minsta handelsbelopp är",
+      "minimum_payout_amount": "Minsta utbetalningsbelopp",
+      "maximum_payout_amount": "Högsta utbetalningsbelopp",
+      "hint_text": "Du kan endast ta ut det saldo som tjänats från försäljning.",
+      "mobile_selected_items_for": "{count} objekt för",
+      "mobile_selected_items_button": "Sälj skins",
+      "crypto_methods": "Kryptometoder"
+    },
+    "trade_url": {
+      "title": "Redigera handels-URL",
+      "input_placeholder": "Handels-URL",
+      "button_text": "Spara",
+      "description": "Du hittar din handels-URL {0}.",
+      "link": "här"
+    }
+  },
+  "trade_info_modal": {
+    "title": "Aktiv handel #{count}:",
+    "success_message_title": "Överföring lyckad!",
+    "success_message_description": "Pengarna har krediterats till ditt saldo.",
+    "after_buy_success_title": "Köp lyckades!",
+    "after_buy_success_description": "Skins har framgångsrikt dragits till ditt Steam-konto. Vänligen lämna en recension genom att klicka på knappen nedan."
+  },
+  "reviews_page": {
+    "title": "Recensioner - Real User Feedback - Skin.Land",
+    "breadcrumbs_title": "Recensioner",
+    "meta_description": "Se vad riktiga användare har att säga om Skin.Land. Läs recensioner och feedback från vår hudgemenskap."
+  },
+  "profile_page": {
+    "title": "{userName} Skin.Land Profile - CS:GO, Dota 2, Rostskinn med de bästa priserna - Skin.Land",
+    "meta_description": "{userName} Profil. Information om konto och transaktioner. Få tillgång till och hantera din hudsamling på Skin.Land",
+    "tabs": {
+      "profile": "Profil",
+      "transactions": "Transaktioner",
+      "security": "Säkerhet"
+    },
+    "profile_tab_title": "Konto",
+    "trade_url": "Handels-URL",
+    "trade_url_has_updated": "URL för handel har uppdaterats",
+    "email_address": "E-postadress",
+    "kyc" : "KYC-verifiering",
+    "kyc_verification" : "Know Your Customer (KYC) är den process som säkerställer våra användares säkerhet och som tillämpas av olika finansinstitut. KYC-verifierade användare har högre insättnings- och uttagsgränser.",
+    "requested": "Begärd",
+    "approved": "Godkänd",
+    "rejected": "Avvisad",
+    "verified": "Veriferad",
+    "settings": "Inställningar",
+    "language_dropdown_label": "Språk",
+    "language_dropdown_select_option": "Välj språk",
+    "currency_dropdown_label": "Valuta",
+    "currency_dropdown_select_option": "Välj valuta",
+    "edit_trade_url_button": "Redigera handels-URL",
+    "purchase_cancellation": "Annullering av köp",
+    "confirm_cancellation": "Bekräfta annullering",
+    "dismiss_cancellation": "Annullera inte köpet",
+    "success_cancellation": "Köpet har annullerats. Pengarna har returnerats.",
+    "cancellation_fee": "Annulleringsavgift",
+    "not_verified": "Inte verifierad",
+    "no_transactions": "Du har ännu inga transaktioner.",
+    "enter_trade_url_button": "Ange handels-URL",
+    "no_trade_url": "Handels-URL ej specificerad",
+    "where_find_trade_url": "Var hittar man det?",
+    "transaction_statuses": {
+      "error_text": "Returnera",
+      "accepted_text": "Accepterad",
+      "processing_text": "Bearbetning",
+      "wait_text": "Vänta tills objektet är upplåst",
+      "accept_trade_text": "Acceptera handel"
+    }
+  },
+  "transactions_page": {
+    "title": "{userName} Transaktioner - CS:GO, Dota 2, Rostskinn med de bästa priserna - Skin.Land",
+    "meta_description": "{userName} Transaktioner. Information om insättningar och uttag. Spåra och se alla dina skintransaktioner på ett bekvämt ställe med Skin.Lands transaktionshistorikfunktion.",
+    "contact_support_hint": "Utbetalningsfel. Vänligen kontakta support för mer information"
+  },
+  "security_page": {
+    "title": "{userName} Säkerhet - CS:GO, Dota 2, Rostskinn med de bästa priserna - Skin.Land",
+    "logout_from_all": "Logga ut från alla enheter",
+    "sessions_have_ended": "Sessioner på andra enheter har avslutats",
+    "active_sessions": "Aktiva sessioner: {count}",
+    "last_logins": "Senaste inloggningar: {count}"
+  },
+  "popups": {
+    "edit_trade_url": {
+      "title": "Redigera handels-URL",
+      "input_placeholder": "Handels-URL",
+      "button_text": "Spara",
+      "description": "Du hittar din handels-URL {0}.",
+      "link": "här",
+      "error_title": "Handels-URL ej specificerad",
+      "error_text": "Vänligen lägg till din handels-URL för att köpa skins",
+      "error_button_text": "Ange handels-URL",
+      "not_valid_title": "URL:en för handeln är inte giltig",
+      "not_valid_text": "Vänligen uppdatera din Trade URL",
+      "not_valid_button_text": "Uppdatera handels-URL"
+    },
+    "edit_email": {
+      "title": "Redigera e-postadress",
+      "input_placeholder": "E-postadress",
+      "button_text": "Spara ny e-postadress",
+      "cancel_button_text": "Avbryt",
+      "first_step_title": "Verifiera din nuvarande e-postadress",
+      "first_step_description": "Ange verifieringskoden som vi skickat till dig på {0}",
+      "confirmation_code_input_placeholder": "Bekräftelsekod",
+      "confirmation_button_text": "Bekräfta",
+      "confirmation_error": "Ogiltig bekräftelsekod",
+      "resend_button_text": "Skicka koden igen",
+      "second_step_title": "Ange och verifiera din nya e-postadress",
+      "new_email_input_placeholder": "Ny e-postadress",
+      "new_email_confirmation_code_input_placeholder": "Bekräftelsekod",
+      "current_email_verified": "Nuvarande e-postadress har verifierats",
+      "edit_new_email": "Redigera ny e-postadress",
+      "sent_verification_code": "Ange verifieringskoden som vi skickat till dig på {0}",
+      "verified": "Veriferad"
+    },
+    "withdrawal": {
+      "title": "Uttag",
+      "input_label": "Ange uttagsbeloppet",
+      "available_for_withdrawal": "Tillgängligt för uttag",
+      "total_balance": "Total Balans",
+      "min_withdrawal_text": "Minsta uttagsbelopp",
+      "transaction_commission_text": "Transaktionsprovision",
+      "bonus_text": "Bonus",
+      "you_receive_text": "Du får",
+      "crypto_amount_text": "Kryptobelopp",
+      "exceed_balance": "Uttagssumman överstiger det tillgängliga uttagssaldot.",
+      "minimum_amount": "Minsta uttagsbelopp är",
+      "maximum_amount": "Högsta uttagsbelopp är",
+      "unverified_email_title": "Overifierad e-postadress",
+      "unverified_email_for_refill_description": "Verifiera din e-postadress för att fylla på ditt saldo.",
+      "unverified_email_for_withdrawal_description": "Verifiera din e-postadress för att ta ut pengar från ditt saldo.",
+      "unverified_email_for_selling_description": "Verifiera din e-postadress för att fylla på ditt saldo med skins.",
+      "unverified_email_button_text": "Verifiera e-postadress",
+      "confirmation_details": "Vi har skickat en bekräftelsekod till din e-post: {0}.",
+      "resend_btn_text": "Skicka koden igen",
+      "confirm_btn_text": "Bekräfta transaktion",
+      "success_title": "Överföring slutförd!",
+      "success_description": "Pengarna har överförts till plånboken du angett.",
+      "error_title": "Överföringsfel",
+      "error_description": "Kontakta vårt supportteam för att granska problemet.",
+      "error_credited_to_balance_description": "Pengarna har krediterats på ditt saldo.",
+      "locked_balance_text": "Låst till",
+      "moderation_title": "Överföring pågår",
+      "moderation_description": "Bearbetningstid:\nBankkort och kryptoöverföringar vanligtvis på 20-30 minuter.\nSEPA-överföringar vanligtvis inom 1-3 arbetsdagar.",
+      "confirm_withdrawal_text": "För att bekräfta uttaget, ange koden som skickats till din e-post:",
+      "amount_sent": "Sänt belopp",
+      "to_wallet": "Till plånbok",
+      "to_card": "Till kort",
+      "success_button_text": "Jättebra!",
+      "fail_button_text": "Okej",
+      "contact_support_button_text": "Kontakta supporten",
+      "next_button_text": "Nästa",
+      "saved_payout": {
+        "title": "Sparade utbetalningsmetoder",
+        "expires": "Förfaller",
+        "set_as_default": "Ange som standard",
+        "delete": "Radera",
+        "default": "Standard",
+        "mastercard_error": "MasterCard är inte tillgängligt för denna metod, vänligen använd Visa",
+        "add_new_method_button": "Lägg till kortd",
+        "no_items": "Inga sparade kort",
+        "show_all_cards": "Visa alla kort",
+        "hide": "Göm dig"
+      }
+    },
+    "refill_balance": {
+      "title": "Fyll på saldo",
+      "input_label": "Ange insättningsbelopp.",
+      "min_deposit_text": "Minsta insättningsbelopp",
+      "minimum_amount": "Minsta insättningsbelopp är",
+      "you_pay_text": "Du betalar",
+      "maximum_amount": "Högsta insättningsbelopp är",
+      "hint_message_title": "Läs innan du betalar",
+      "hint_message_description": "De insatta medlen kan inte tas ut. Innan du sätter in pengar, notera att du bara kan ta ut pengar som du fått från att sälja föremål från ditt lager. Kontakta vår support för mer information om vårt insättningssystem.",
+      "kyc_message": "För att öka säkerheten på vår plattform och säkerställa att vi följer reglerna har vi en daglig insättningsgräns på {0} utan KYC. För att öka gränsen måste du genomgå {1}.",
+      "kyc_procedure_button_text": "KYC-procedur",
+      "kyc_verify_to_remove_limit": "Slutför KYC-verifiering för att öka dina gränser",
+      "kyc_daily_limit_text": "Din dagliga insättningsgräns",
+      "kyc_unlimited_deposit": "Know Your Customer (KYC) är processen som säkerställer säkerheten för våra användare och tillämpas av olika finansiella institutioner. KYC-verifierade användare har högre insättnings- och uttagsgränser.",
+      "kyc_start": "Starta KYC-verifiering",
+      "next_button_text": "Betala",
+      "tos_and_privacy": "Genom att klicka på Betala godkänner du våra {0} och att du har läst våra {1}.",
+      "tos_text": "Villkor för tjänsten",
+      "privacy_policy_text": "sekretesspolicyn",
+      "timer_description": "Du har {0} minuter att slutföra transaktionen. Betalningen är automatisk.",
+      "time_is_over": "Tiden är slut. Starta en ny påfyllningsprocess. Använd inte dessa betalningsuppgifter för att genomföra en transaktion!",
+      "send_btn_amount": "Skicka följande belopp i <strong>{0}</strong>:",
+      "wallet_address_text": "till plånboksadressen:",
+      "copy_btn_text": "Kopiera",
+      "copy_toast": "Kopierat",
+      "deposit_success_title": "Betalningen har genomförts.",
+      "deposit_success_description": "Vi har tagit emot din betalning. Ditt saldo fylls på.",
+      "deposit_success_button_text": "Stäng",
+      "deposit_error_title": "Betalningen togs inte emot.",
+      "deposit_error_description": "Prova att betala igen. Kontakta supporten om du har några problem.",
+      "deposit_error_button_text": "Föreslå en ny handel",
+      "deposit_timeout_title": "Betalning inte mottagen.",
+      "deposit_timeout_description": "Försök att betala igen. Om du har några problem, kontakta supporten.",
+      "moderation_title": "Överföring pågår",
+      "moderation_description": "Bearbetningstid:\nBankkort och kryptoöverföringar vanligtvis på 20-30 minuter.\nSEPA-överföringar vanligtvis inom 1-3 arbetsdagar.",
+      "pay_button_hint": "Klicka på knappen nedan för att betala.",
+      "pay_button_text": "Betala",
+      "tether_trc20_qrcode_text": "Observera att denna <b>USDT</b>-plånbok är på <b>TRC-20</b>-nätverket.",
+      "tether_erc20_qrcode_text": "Observera att denna <b>USDT</b>-plånbok är på <b>ERC-20</b>-nätverket.",
+      "bitcoin_qrcode_text": "Observera att denna <b>Bitcoin</b>-plånbok är på <b>Bitcoin</b>-nätverket.",
+      "ethereum_qrcode_text": "Observera att denna <b>Ethereum</b>-plånbok är på <b>Ethereum (ERC20)</b>-nätverket.",
+      "static_wallet_address_text": "Det här är din privata insättningsadress. Alla insättningar du gör kommer att visas i ditt saldo efter blockkedjebekräftelse.",
+      "static_wallet_minimum_deposit": "Minsta insättningsbelopp: <strong>{0}</strong> efter nätverksavgifterna. Insättning av mindre kommer att leda till förlust av medel utan möjlighet till återbetalning.",
+      "static_wallet_hint": "*Observera: om växelkursen ändras under transaktionen kan du få ett annat belopp än det du skickade",
+      "transaction_commission": "Transaktionsavgift",
+      "crypto_network": "<strong>Nätverk: {0}</strong>. Medel kommer att förloras vid transaktioner genom andra nätverk.<br><br>* Om växelkursen ändras under transaktionen kan du få ett annat belopp än det du skickade.",
+      "refill_amount": "Påfyllningsbelopp",
+      "back_button_text": "Bakåt"
+    },
+    "security_alert": {
+      "title": "Säkerhetsvarning",
+      "text": {
+        "line_1": "Din handel har annullerats på Steam. Om du inte initierade annulleringen har en obehörig användare kommit åt ditt konto. För att hindra det här problemet ska du inte acceptera handeln nu och följa stegen nedan:",
+        "line_2": "Ändra ditt lösenord i inställningarna på ditt Steam-konto.",
+        "line_3": "Återkalla API-nyckeln som genererades av angriparna. Du kan göra det genom att använda <a target=\"_blank\" href=\":url\">länken</a>. Du behöver inte generera en ny nyckel.",
+        "line_4": "Ändra ditt handels-URL. Du kan göra det <a href=\":url\" target=\"_blank\">här</a>.",
+        "line_5": "I framtiden ska du vara försiktig när du auktoriserar på webbplatser från tredje part med ditt Steam-konto. De är ofta anledningen till att ditt konto hackas. Du hittar alltid inloggningshistoriken för ditt Steam-konto <a href=\":url\" target=\"_blank\">här</a>.",
+        "line_6": "Nu är ditt konto säkert och du kan fortsätta använda vår webbplats."
+      },
+      "ok_button_text": "Ok",
+      "dont_show_this_button_text": "Visa inte det här igen"
+    },
+    "bonus": {
+      "header_title": "Få dina $10 nu!",
+      "header_description": "Sälj skinn på SKIN.LAND för att hämta din bonus",
+      "form_description": "Ange en kod, du har fått från din favoritinfluencer.",
+      "form_hint": "Har du ingen kod? Använd den här:",
+      "form_field_placeholder": "Koda",
+      "form_button_label": "Aktivera bonus",
+      "success_title": "Bonus aktiverad!",
+      "success_description": "Sälj dina första skinn och få bonus på ditt saldo",
+      "success_button_label": "Bra!",
+      "footer_button_label": "Hur funkar det?",
+      "footer_description": "Gör din första transaktion genom att sälja skinn och få $$$ på ditt saldo! Så enkelt som det!",
+      "footer_table_sell": "Försäljning: {0}",
+      "footer_table_take": "Ta extra: {0}",
+      "error_first_sell": "Bonus kan inte tillämpas eftersom den endast fungerar för en första skinnförsäljning.",
+      "header_button_text": "Använd kampanjkod"
+    },
+    "bonus_reminder": {
+      "table_trade": "Handel <b>{0}</b>",
+      "table_bonus": "Bonus <b>{0}</b>",
+      "title": "Aktiverad first sell skins",
+      "title_bonus": "bonus!",
+      "description": "Utvalda föremål för {0}, lägg till ytterligare {1} för att få en bonus på {2}",
+      "reached_description": "Utvalda föremål för {0}, du kommer att få en bonus på {1}"
+    },
+    "welcome": {
+      "signup_completion": {
+        "title": "Välkommen till Skin Land!",
+        "description": "Vänligen ange din Trade URL och din e-postadress",
+        "first_card_title": "Säkerhet",
+        "first_card_description": "Vi skickar verifieringskoder till dig som du kan använda för att bekräfta uttag.",
+        "second_card_title": "Policy för ingen skräppost",
+        "second_card_description": "Vi kommer inte tråka ut dig med nyhetsbrev. Du får bara de viktigaste nyheterna.",
+        "input_label": "Din e-postadress",
+        "input_hint": "Genom att klicka på Fortsätt godkänner du våra {0} och du bekräftar även att du läst igenom vår {1}.",
+        "tos_text": "allmänna villkor",
+        "privacy_policy_text": "sekretesspolicy",
+        "primary_button_text": "Fortsätt",
+        "secondary_button_text": "Gör det senare",
+        "first_step": "Ange din webbadress för handeln",
+        "second_step": "Ange din e-postadress",
+        "incorrect_trade_url": "Felaktig URL för handel"
+      },
+      "email_verification": {
+        "title": "Verifiering av e-postadress",
+        "description": "Vi har skickat ett e-postmeddelande till dig på {0}\n\nDu måste verifiera e-postadressen genom att följa en länk i e-postmeddelandet. Om du inte hittar e-postmeddelandet kan du kolla i skräpposten.\n\nUtan verifiering kan du inte göra ekonomiska transaktioner.",
+        "resend_button_text": "Skicka e-post igen",
+        "update_description": "Följ den här länken för att uppdatera din e-postadress:",
+        "update_button_text": "Uppdatera e-postadress",
+        "primary_button_text": "OK"
+      },
+      "email_update": {
+        "title": "Uppdatering av e-postadress",
+        "description": "Ange din e-postadress för verifiering.\n\nE-postadressen måste vara giltig. Där får du kvitton för alla dina transaktioner och verifieringskoder för att bekräfta uttag.",
+        "input_label": "Din e-postadress",
+        "primary_button_text": "Spara och fortsätt",
+        "secondary_button_text": "Avbryt"
+      },
+      "verification_success": {
+        "title": "Din e-postadress\nhar verifierats!",
+        "primary_button_text": "Bra!"
+      },
+      "verification_error": {
+        "title": "Det gick inte att verifiera e-post.",
+        "description": "Länken har gått ut eller är trasig. Vänta på ett nytt e-postmeddelande om du redan begärt en, eller begär en ny länk här:",
+        "verify_button_text": "Verifiera e-postadress",
+        "primary_button_text": "OK"
+      }
+    },
+    "error": {
+      "title": "Fel",
+      "description": "Det gick inte att få en skärmdump på grund av \"Steam-problem\". Men du kan fortfarande titta på huden i spelet.\nVi arbetar med det här problemet och kommer snart att ha en alternativ lösning.",
+      "button_text": "Stäng"
+    },
+    "buy_now": {
+      "success_title": "Betalningen har genomförts.",
+      "success_description": "Skins har framgångsrikt köpts. Du kan hitta dem i avsnittet Transaktioner i din profil.",
+      "success_button_text": "Gå till köp",
+      "pay_button_text": "Betala med saldo"
+    },
+    "login": {
+      "title": "Behörighet krävs",
+      "instructions": "Logga in via Steam för att använda webbplatsen.",
+      "benefits": "Det går snabbt och enkelt!"
+    },
+    "unauthorized": {
+      "title": "Logga in för att fortsätta",
+      "description": "Logga in med din Steam-profil för att fortsätta använda webbplatsen"
+    },
+    "cookie_policy": {
+      "text": "Vi använder cookies för att förbättra din upplevelse på Skin.Land enligt vår {0}. Genom att fortsätta använda denna webbplats ger du oss samtycke till användningen av cookies.",
+      "text_link": "Cookie-policy",
+      "button_accept_all": "Acceptera alla",
+      "button_accept_essentials": "Acceptera endast nödvändiga",
+      "button_customize": "Anpassa",
+      "button_save": "Spara och tillämpa",
+      "essential_cookies_title": "Strikt nödvändiga cookies",
+      "essential_cookies_text": "Dessa cookies hjälper oss att köra webbplatsen korrekt. Denna typ av cookie kan inte inaktiveras.",
+      "functional_cookies_title": "Funktionella cookies",
+      "functional_cookies_text": "Dessa cookies gör det möjligt för oss att komma ihåg dina personliga inställningar (t.ex. språk).",
+      "performance_cookies_title": "Prestandacookies",
+      "performance_cookies_text": "Dessa cookies gör det möjligt för oss att förbättra tjänsten genom att analysera användningen av webbplatsen.",
+      "targeting_cookies_title": "Marknadsförings-/Målinriktningscookies",
+      "targeting_cookies_text": "Dessa cookies gör det möjligt för oss att göra annonseringen mer relevant för dina intressen."
+    }
+  },
+  "faq_page": {
+    "default_answer": "Hitta svar på alla dina hudfrågor på Skin.Lands FAQ-sida. Få den information du behöver för att köpa och sälja med förtroende. Självklart kan du också kontakta vår support via e-post help{'@'}skin.land",
+    "back_button_text": "Tillbaka till FAQ"
+  },
+  "blog_page": {
+    "page_title": "Artiklar",
+    "top_articles": "Toppartiklar",
+    "title": "Skins Nyheter och Trender för CS:GO, Dota 2 och Rust - Skin.Land Blog",
+    "meta_description": "Håll dig informerad och uppdaterad om de senaste nyheterna och trenderna i hudvärlden med Skin.Land-bloggen."
+  },
+  "article_page": {
+    "comments": "kommentarer",
+    "articles": "Artiklar",
+    "write_comment": "Skriv kommentar",
+    "send_comment_button_text": "Skicka",
+    "user_name_input_placeholder": "Ditt namn",
+    "user_comment_input_placeholder": "DIN KOMMENTAR",
+    "latest_articles_title": "Våra andra fantastiska artiklar",
+    "page_navigation": "Navigering",
+    "app_title": "Skin.Land Bloggen"
+  },
+  "author_page": {
+    "follow_on_linkedin": "Följ på LinkedIn",
+    "total_articles_text": "Artiklar",
+    "about_author": "Om författaren",
+    "articles_by": "artiklar av",
+    "updated_label": "Uppdaterad:"
+  },
+  "welcome_page": {
+    "page_title": "Köp och sälj CS:GO Skins & Föremål - Omedelbart, säkert och 24/7",
+    "page_description": "Gör köp, försäljning och handel av CS:GO skins snabbare och enklare. Alla transaktioner skyddas med högsta möjliga säkerhetsåtgärder.",
+    "title": "Ett bättre sätt att handla CS:GO skins",
+    "description": "Köp, sälj och handla skins enklare och snabbare. Alla affärer är säkrade med de högsta skyddsmetoderna",
+    "try_now": "Prova nu",
+    "bloggers_title": "Förtroende från de största bloggarna och CS:GO-gemenskapen",
+    "upgrade_skins": "Uppgradera dina skins med skin.land",
+    "store": {
+      "title": "Butik",
+      "description": "Vår butik gör köpprocessen för föremål enklare och snabbare. Dra fördel av:",
+      "first_benefit": {
+        "info": "Vi erbjuder förmånliga priser för dina skins"
+      },
+      "second_benefit": {
+        "info": "Vår service är transparent, utan dolda avgifter"
+      },
+      "third_benefit": {
+        "info": "Vi arbetar dygnet runt för att säkerställa snabba betalningar"
+      },
+      "fourth_benefit": {
+        "info": "Vi prioriterar lagliga och säkra metoder i vår service"
+      }
+    },
+    "benefits": {
+      "first_cell": {
+        "caption": "10%",
+        "description": "upp till 10% - bonus för första försäljningen av skins"
+      },
+      "second_cell": {
+        "caption": "80k",
+        "description": "CS:GO, Dota 2 och Rust-föremål på vår webbplats"
+      },
+      "third_cell": {
+        "caption": "30 sek",
+        "description": "från inloggning till att genomföra ett köp"
+      },
+      "fourth_cell": {
+        "caption": "24/7",
+        "description": "online-support, svarstid mindre än 5 minuter"
+      }
+    },
+    "best_offer": {
+      "title": "Bästa erbjudandet",
+      "description": "Följ priset på skins och skillnaden på Steam-marknaden för att få det bästa erbjudandet"
+    }
+  },
+  "cart_page": {
+    "title": "Varukorg",
+    "meta_title": "Vagn - Köp skinn på - Skin.land",
+    "meta_description": "Hantera enkelt dina hudköp för populära spel som CS:GO, Dota 2 och Rust with the Skin.Land Market",
+    "toast_added_to_cart": "<strong>{skin}</strong> har lagts till i din varukorg",
+    "toast_removed_from_cart": "<strong>{skin}</strong> har tagits bort från din varukorg",
+    "content": {
+      "items": "objekt",
+      "clear_button": "Sepeti temizle",
+      "checkout_button": "Kassa",
+      "no_items": "Inga objekt i kundvagnen",
+      "image_popup": {
+        "tag_name": "Namn tagg:",
+        "show_on_bot_button": "Visa i robot",
+        "inspect_in_game_button": "Inspektera i spelet",
+        "screenshot_button": "Skärmbild"
+      },
+      "stickers_info_total": "Totalt:",
+      "unavailable_items": "Objekt är inte tillgängligt",
+      "clear_unavailable_button": "Temizle kullanılamıyor"
+    },
+    "sidebar": {
+      "items_count": "artiklar för",
+      "not_enough_balance_title": "Otillräckligt saldo!",
+      "not_enough_balance_description": "Fyll på saldot med {0}{1} för att göra ett köp.",
+      "not_enough_balance_description_converted": "Fyll på saldot med {0}{1} ({2}{3}) för att göra ett köp.",
+      "not_enough_balance_button": "Fyll på saldo",
+      "pay_button": "Betala med saldo",
+      "go_to_market_button": "Lägg till skins i kundvagnen",
+      "trade_lock_title": "Handelslås",
+      "trade_lock_text": "Ett byteserbjudande för skins med ett ”Trade Lock” kommer att skickas efter att de har låsts upp och du kommer att ha <b>5 timmar för att acceptera affären.</b><br> Du kan följa datum och tid för när skinnet låses upp i avsnittet Transaktioner i din profil genom att klicka på det köpta objektet.<br><br>Om du inte accepterar affären inom den angivna tiden kommer affären att annulleras och pengarna återbetalas till ditt saldo.",
+      "p2p_title": "P2P",
+      "p2p_text": "Du har 12 timmar på dig att acceptera handeln efter att säljaren har skickat den. Om du inte accepterar handeln kommer det att resultera i en böter på 2%.",
+      "success_title": "Lyckad köp",
+      "success_description": "Skins har framgångsrikt köpts. Du kan hitta dem i avsnittet Transaktioner i din profil.",
+      "success_button": "Gå till köp"
+    }
+  },
+  "cart_modal": {
+    "title": "Varukorg",
+    "empty_text": "Inget i varukorgen",
+    "items_for": "{count} objekt för",
+    "checkout_button_text": "Gå till kassan",
+    "unlocked": "Olåst",
+    "locked": "Låst"
+  },
+  "skin_page": {
+    "meta_title": "Köp {name} - pris från {price} - Köp skinn på Skin.Land",
+    "meta_description": "I vår butik med skinn kan du köpa {name} efter pris från {price}. Ett stort sortiment av skinn på marknaden för Skin.land.",
+    "inspect_in_game_button": "Inspektera i spelet",
+    "screenshot_button": "Skärmbild",
+    "type_label": "Typ",
+    "rarity_label": "Raritet",
+    "category_label": "Kategori",
+    "quality_label": "Kvalitet",
+    "hero_label": "Hjälte",
+    "in_other_categories_label": "Skin som visas i andra kategorier",
+    "best_offer_label": "Bästa erbjudande",
+    "buy_button": "Köp nu",
+    "add_to_cart_button": "Lägg till i kundvagnen",
+    "in_cart_button": "I kundvagn",
+    "on_sale_label": "till salu",
+    "from_label": "Från",
+    "filter_label": "Filter",
+    "reset_filters_button": "Återställ filter",
+    "apply_filters_button": "Använd filter",
+    "offers_count_label": "{count} erbjudande | {count} erbjudanden",
+    "no_offers": "Inga erbjudanden hittades.",
+    "suggestions_title": "Du kanske även gillar",
+    "sort_unlock_early_label": "Lås upp tidigt",
+    "sort_unlock_later_label": "Lås upp senare",
+    "sort_price_label": "Pris",
+    "sort_float_label": "Float",
+    "on_sale_from_label": "till salu från",
+    "locked": "Låst",
+    "unlocked": "Upplåst",
+    "out_of_stock": "Slut i lager",
+    "stickers": "dekal | dekaler"
+  },
+  "screenshot_page": {
+    "title": "Skärmbilden laddas",
+    "description": "Det tar i genomsnitt 15-20 sekunder, men i sällsynta fall kan det ta längre tid"
+  },
+  "trade_info": {
+    "time_left": "Tid kvar:",
+    "contact_support_button_text": "Kontakta supporten",
+    "new_deal_button_text": "Föreslå en ny handel",
+    "client_satisfied_button": "Skriv en recension på",
+    "statuses": {
+      "credited_to_balance_title": "Fel vid utbetalning",
+      "credited_to_balance_description": "Pengarna har krediterats på ditt saldo. Kontakta supporten för mer information.",
+      "success_title": "Överföring lyckades",
+      "success_description_no_payout": "Pengarna har krediterats på ditt saldo.",
+      "success_description": "Pengarna överfördes till den plånbok du angav.",
+      "client_satisfied_text": "\nVänligen lämna en recension genom att klicka på knappen nedan.",
+      "contact_support_title": "Fel vid utbetalning",
+      "contact_support_description": "Fel vid utbetalning. Kontakta supporten.",
+      "timeout_title": "Tiden är slut",
+      "timeout_description": "Tiden är slut. Starta en ny handelstransaktion.",
+      "canceled_title": "Handeln har annullerats",
+      "canceled_description": "Handeln har annullerats på Steam. \nKontakta supporten om du inte redan gjort det.",
+      "in_progress_title": "Överföring pågår",
+      "in_progress_description": "Bearbetningstid:\nÖverföringar med bankkort och krypto tar vanligtvis 20-30 minuter.\nSEPA-överföringar tar vanligtvis 1-3 arbetsdagar."
+    }
+  },
+  "privacy_policy_page": {
+    "title": "Integritetspolicy - Din information är säker - Skin.Land",
+    "meta_description": "Förstå hur Skin.Land skyddar din information och dataintegritet med hjälp av vår tydliga och öppna sekretesspolicy."
+  },
+  "terms_of_service_page": {
+    "title": "Användarvillkor - Skin.Land",
+    "meta_description": "Läs mer om riktlinjerna för användning av Skin.Land, inklusive vår policy för köp och försäljning av skinn."
+  },
+  "contacts_page": {
+    "title": "Kontakter - Kontakta oss - Skin.Land",
+    "breadcrumb_title": "Kontakter",
+    "meta_description": "Har du en fråga eller förslag till Skin.land? Kom i kontakt med vårt supportteam via vår kontaktsida."
+  },
+  "buy_csgo_skins_with_credit_card_page": {
+    "title": "Köp CS:GO-skinn med kreditkort på Skin.Land",
+    "breadcrumbs_title": "Köp CS:GO-skins med kreditkort",
+    "meta_description": "I butiken Skin.Land kan du köpa CS:GO-skins med kreditkort. Välj ett skin och betala för det med kreditkort direkt dygnet runt."
+  },
+  "buy_csgo_skins_with_crypto_page": {
+    "title": "Köp CS:GO/CS2-skinn för krypto på Skin.Land",
+    "breadcrumbs_title": "Köp CS:GO-skins för krypto",
+    "meta_description": "I butiken Skin.Land kan du köpa CS:GO-skins för krypto. Välj ett skin och betala för det med kryptovaluta direkt dygnet runt."
+  },
+  "sell_csgo_cs2_skins_with_crypto": {
+    "title": "Sälj CS:GO/CS2 Skins och Föremål för Krypto på Skin.Land",
+    "breadcrumbs_title": "Sälj CS:GO/CS2 Skins för Kryptovaluta",
+    "meta_description": "Letar du efter var man kan sälja CS:GO/CS2-skinn och artiklar för krypto? Skin.Land är den bästa sidan att sälja CS:GO och CS2 skinn med kryptovaluta direkt 24/7!"
+  },
+  "cookie_policy_page": {
+    "title": "Cookie-policy - Din information är säker - Skin.Land",
+    "meta_description": "Förstå Skin.Lands cookie-policy."
+  }
+}

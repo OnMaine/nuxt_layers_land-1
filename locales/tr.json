@@ -1,0 +1,954 @@
+{
+  "common": {
+    "page": "sayfa",
+    "favourites": "Favoriler",
+    "remove_all": "Hepsini kaldır",
+    "popularity": "Popülerlik",
+    "filters": "Filtreler",
+    "error": "Hata",
+    "amount": "Miktar",
+    "transaction": "{count} işlemler | {count} işlem | {count} işlem",
+    "accept_trade": "Takası kabul et",
+    "cancel_purchase": "Satın Almayı İptal Et",
+    "wait_unlock": "Öğenin kilidini bekleyin",
+    "accepted": "Kabul edildi",
+    "trade_canceled_return": "Ticaret reddedildi",
+    "return": "İade",
+    "expired_return": "Süre doldu",
+    "not_accepted_trade": "Belirtilen zamanda ticareti kabul etmediniz.",
+    "money_returned_back": "Paranız bakiyeye iade edildi.",
+    "processing": "İşleniyor",
+    "send_error_bot_unavailable": "Bot mevcut değil.",
+    "send_error_invalid_trade_url": "Yanlış Ticaret URL'si girdiniz veya oyun için bir VAC yasağınız var.",
+    "send_error_unknown_error": "Bilinmeyen bir hata oluştu.",
+    "send_error_you_cant_trade": "Hesabınızda ticaret kısıtlamaları bulunuyor.",
+    "send_error_other_reason": "Diğer neden.",
+    "please_check_entered_details": "Lütfen girilen detayları kontrol edin",
+    "sell_skins": "Skin satın",
+    "sell": "Satın",
+    "buy_skins": "Skin satın alın",
+    "buy_more_skins": "Daha fazla skin satın al",
+    "buy": "Satın alın",
+    "more": "Devamı",
+    "faq": "SSS",
+    "reviews": "İnceleme | {count} İncelemeler",
+    "articles": "Makaleler",
+    "contacts": "İletişim",
+    "login_via_steam": "Steam ile Giriş Yap",
+    "login": "Giriş Yap",
+    "logout": "Çıkış yap",
+    "profile": "Profil",
+    "blog": "Blog",
+    "transactions": "İşlemler",
+    "withdrawal": "Para çekme",
+    "refill_balance": "Bakiyeyi yeniden doldur",
+    "refill": "Yeniden doldur",
+    "balance": "Bakiye",
+    "select_language": "Dil Seçin",
+    "select_currency": "Para Birimi Seçin",
+    "privacy_policy": "Gizlilik Politikası",
+    "terms_of_service": "Hizmet Şartları",
+    "cookie_policy": "Çerez Politikası",
+    "follow_us": "Bizi takip edin",
+    "close": "Kapat",
+    "menu": "Menü",
+    "home": "Ana Sayfa",
+    "featured": "Öne Çıkanlar",
+    "check_more": "Bize ilişkin daha fazla bilgi için",
+    "market": "Skinler satın al",
+    "page_not_found": "Sayfa bulunamadı",
+    "too_many_requests": "Çok fazla istek. Lütfen daha sonra tekrar deneyin.",
+    "error_corrupted": "Oops, bazı hatalar oluştu, lütfen sayfayı yeniden yükleyin",
+    "save": "Kaydet",
+    "edit": "Düzenle",
+    "verify": "Doğrulama",
+    "start": "Başlangıç",
+    "time_ago": {
+      "just_now": "şu anda",
+      "ago": "{0} önce",
+      "in": "{0} içinde",
+      "month": "ay | ay",
+      "year": "yıl | yıl",
+      "day": "gün | gün",
+      "week": "hafta | hafta",
+      "hour": "saat | saat",
+      "minute": "dakika | dakika",
+      "second": "saniye | saniye"
+    },
+    "add_to_favourites": "Favorilere ekle",
+    "zoom_skin_image": "Yakınlaştırma deri görüntüsü",
+    "like_article": "Makaleyi beğen",
+    "social_link": "{name} sosyal bağlantı",
+    "regular": "Normal",
+    "maintenance": {
+      "meta_title": "Bakım",
+      "title": "Yakında geri döneceğiz!",
+      "description": "Verdiğimiz rahatsızlıktan dolayı özür dileriz, ancak şu anda bazı bakım çalışmaları yapıyoruz. Kısa süre içinde tekrar çevrimiçi olacağız!"
+    },
+    "404": "404 Bulunamadı",
+    "subscribers": "Aboneler",
+    "starting_at": "Başlayan",
+    "crypto": "Kripto"
+  },
+  "filters": {
+    "selected": "{count} Seçilen",
+    "price_from": "Şu fiyattan",
+    "price_to": "Şu fiyata kadar",
+    "float_from": "Aşınması şu değerden:",
+    "float_to": "Aşınması şu değere kadar:",
+    "rarity": "Nadirlik",
+    "exterior": "Dış Görünüm",
+    "hold": "Bekletme var",
+    "phase": "Faz",
+    "category": "Kategori",
+    "stickers": "Çıkartmalar",
+    "type": "Tip",
+    "hero": "Kahraman",
+    "slot": "Yuva",
+    "quality": "Kalite",
+    "reset": "Filtreleri Sıfırla",
+    "apply": "Filtreleri Uygula",
+    "search": "Aramak",
+    "no_results": "Hiçbir kahraman bulunamadı. Lütfen arama terimlerinizi güncelleyin.",
+    "no_hold": "Bekleme Yok",
+    "hold_1": "1 gün",
+    "hold_2": "2 gün",
+    "hold_3": "3 gün",
+    "hold_4": "4 gün",
+    "hold_5": "5 gün",
+    "hold_6": "6 gün",
+    "hold_7": "7 gün",
+    "hold_8": "8 gün",
+    "without_statrack": "StatTrak™ olmadan",
+    "souvenir": "Hatıra",
+    "without_souvenir": "Hatıra Olmadan",
+    "nametag": "İsim etiketi",
+    "any_stickers": "Tüm çıkartmalar",
+    "expensive_stickers": "Pahalı çıkartmalar",
+    "show_favourites": "Favorileri Göster",
+    "sort_by_newest": "En yeni",
+    "sort_by_oldest": "En eski"
+  },
+  "footer": {
+    "buy_csgo_skins": "CS:GO skins satın al",
+    "buy_dota_skins": "Dota 2 skins satın al",
+    "buy_rust_skins": "Rust skins satın al",
+    "buy_with_crypto": "Kripto ile satın al",
+    "buy_with_credit_card": "Kredi kartı ile satın al",
+    "copyright": {
+      "ownership": "<p>Skin.Land website is owned and operated by group of companies:<br>- Pixel Place Limited (registered company no is 3154102), registered at room 8, S-V, 6/F Valiant Industrial Center 2-12 Pci Wan St., Fo Tan, Hong Kong.<br>- SieraLink Limited, registered in Cyprus with registered address 1 Apriliou 52, Athienou, Larnaca, Cyprus with registered company number (HE 435301).</p>",
+      "trademark": "<p>Copyright © Skin.Land {year}. All Rights Reserved.</p><p>Powered by Steam. Not affiliated with Valve Corp.</p>"
+    },
+    "sell_with_crypto": "Kripto için skin satmak",
+    "sell_csgo_skins": "Satmak CS:GO skins",
+    "sell_dota_skins": "Satmak Dota 2 skins",
+    "sell_rust_skins": "Satmak Rust skins"
+  },
+  "main_page": {
+    "welcome": {
+      "title": "Satın alın ve satın",
+      "skins": "dış görünümleri",
+      "sign_in": "Giriş yapın ve kaplamaları takas edin",
+      "trade": "Takas skinleri",
+      "advantages": {
+        "best_prices": "En iyi fiyatlar",
+        "no_commission": "Gizli komisyon yok",
+        "service": "7/24 Hizmet",
+        "security": "100% güvenli",
+        "average_time": "5 dakika ortalama ödeme süresi"
+      }
+    },
+    "recent_deals": {
+      "title": "Son anlaşmalar"
+    },
+    "citation" : {
+      "read": "Röportajın tamamını okuyun",
+      "description": "İhtiyaçlarımı en iyi karşılayan CS2 pazarı olarak <b>Skin.Land'i</b> seçiyorum - düşük fiyatlarla iyi fırsatlar sunuyor ve hızlı işlemlerle güvenilir bir platform sağlıyor.",
+      "signature": "FalleN, CS efsanesi"
+    },
+    "steps": {
+      "title": "Skin.Land'de skinler nasıl satılır",
+      "first_step": {
+        "title": "Steam ile giriş yap",
+        "description": "Hesabınızın Takas URL'ini ve E-posta Adresini ayarlayın"
+      },
+      "second_step": {
+        "title": "Skinleri seçin",
+        "description": "Her skin için bir fiyat değerlendirmesi alın ve satmak istediklerinizi seçin"
+      },
+      "third_step": {
+        "title": "Paranızı alın",
+        "description": "Bir ödeme yöntemi seçip paranızı veya kripto paranızı anında ve 7/24 alın"
+      }
+    },
+    "bloggers": {
+      "title": "Blogcular bizi tavsiye ediyor",
+      "watch": "İzle şimdi"
+    },
+    "questions": {
+      "title": "Soru var mı?"
+    },
+    "qualities": {
+      "first_quality": {
+        "description": "Satılan Skins"
+      },
+      "second_quality": {
+        "description": "Satın Alınan Skins"
+      },
+      "third_quality": {
+        "description": "Memnun kullanıcılar"
+      }
+    },
+    "benefits": {
+      "title": "Elimizden gelenin en iyisini yapıyoruz",
+      "first_benefit": {
+        "info": "Skinleriniz için <span class=\"color--violet\">en iyi fiyatı</span> teklif ediyoruz"
+      },
+      "second_benefit": {
+        "info": "Hiçbir gizli komisyon olmadan <span class=\"color--violet\">şeffaf bir hizmet</span> sunuyoruz"
+      },
+      "third_benefit": {
+        "info": "<span class=\"color--violet\">Anında ödemeler</span> alabilmeniz için sizin adınıza 7/24 çalışıyoruz"
+      },
+      "fourth_benefit": {
+        "info": "Hizmetimizi <span class=\"color--violet\">%100 güvenli</span> olacak şekilde oluşturduk"
+      }
+    },
+    "latest_articles": {
+      "title": "En son haberlerden haberdar olun"
+    },
+    "reviews": {
+      "title": "Kullanıcılar hizmetimizi çok seviyor",
+      "review": "Şuradaki incelemeler",
+      "1": "Kötü",
+      "1_5": "Kötü",
+      "2": "Zayıf",
+      "2_5": "Zayıf",
+      "3": "Ortalama",
+      "3_5": "Ortalama",
+      "4": "Harika",
+      "4_5": "Mükemmel",
+      "5": "Mükemmel"
+    },
+    "seo": {
+      "title": "CS2, Dota 2 ve Rust Skin Satın Al & Sat {'|'} CS:GO Skin Satma Siteleri - Skin.Land",
+      "description": "Skin.Land pazarında CS2, CS:GO, Dota 2 ve Rust için skin satın alabilir ve satabilirsiniz! Hızlı ve güvenli işlemler, şeffaf fiyatlar ve büyük bir envanter!"
+    }
+  },
+  "market_page": {
+    "title": "CS:GO/CS2, Dota 2 ve Rust Skin Pazarı - Skin.Land",
+    "meta_description": "CS:GO, Dota 2 ve Rust gibi popüler oyunlar için çok çeşitli görünümleri keşfedin ve bunları Skin.Land pazarında satın alın ve satın.",
+    "breadcrumb_title": "CS:GO/CS2 Skin Pazarı",
+
+    "dota2": {
+      "title": "Dota 2 Skin ve Eşyaları Satın Al - Skin.Land'de Dota 2 Pazarı",
+      "meta_description": "Skin.Land ile Dota 2 görünümleri satın aldığınızda iyi bir fiyat elde edin. Skinleri kolayca, hızlı ve güvenli bir şekilde satın alın.",
+      "breadcrumb_title": "Dota 2 kaplamaları satın alın",
+      "hero_breadcrumb_title": "{hero} için skinler satın alın",
+      "hero_title": "Dota 2 için {hero} skinleri satın alın",
+      "hero_description": "Bu sayfada, kataloğumuzdaki {hero} in Dota 2 için dış görünüm satın alabilirsiniz. Satın almak ve satmak için Steam'den çok çeşitli görünümleri ve diğer öğeleri keşfedin.",
+      "type_breadcrumb_title": "{type} için skinler satın alın",
+      "type_title": "Dota 2 için {type} skinleri satın alın",
+      "type_description": "Bu sayfada, kataloğumuzdaki {type} in Dota 2 için dış görünüm satın alabilirsiniz. Satın almak ve satmak için Steam'den çok çeşitli görünümleri ve diğer öğeleri keşfedin."
+    },
+
+    "csgo": {
+      "title": "CS:GO/CS2 Skin Satın Al {'|'} CS:GO Skin Fiyatları, en Ucuz Skinleri - Skin.Land",
+      "meta_description": "Skin.Land, CS:GO görünümlerini ve eşyalarını gerçek parayla ucuza satın almanıza yardımcı olacaktır. Düşük fiyatlarımız, anında para çekme ve birçok ödeme yöntemimiz var.",
+      "breadcrumb_title": "CS:GO görünümleri satın alın",
+      "category_or_type_breadcrumb_title": "{filter} için skinler satın alın",
+      "category_or_type_title": "CS:GO için {filter} skinleri satın alın",
+      "category_or_type_description": "Bu sayfada, kataloğumuzdaki {filter} in CS:GO için dış görünüm satın alabilirsiniz. Satın almak ve satmak için Steam'den çok çeşitli görünümleri ve diğer öğeleri keşfedin."
+    },
+
+    "rust": {
+      "title": "Rust Silah Skin Satın Al {'|'} Rust Item Sitesi - Skin.Land",
+      "meta_description": "Skin.Land pazarı Rust skinlerini karlı bir şekilde satın almanıza yardımcı olacaktır. Çok çeşitli Rust skinleri ve kaliteli hizmet sunuyoruz.",
+      "breadcrumb_title": "Rust görünümleri satın alın",
+      "category_or_type_breadcrumb_title": "{filter} için skinler satın alın",
+      "category_or_type_title": "Rust için {filter} skinleri satın alın",
+      "category_or_type_description": "Bu sayfada, kataloğumuzdaki {filter} in Rust için dış görünüm satın alabilirsiniz. Satın almak ve satmak için Steam'den çok çeşitli görünümleri ve diğer öğeleri keşfedin."
+    },
+
+    "cs2": {
+      "title": "CS2 kaplamaları satın alın - Skin.Land",
+      "meta_description": "Skin.Land CS2 skinlerini gerçek parayla ucuza satın almanıza yardımcı olur. Düşük fiyatlarımız, anında para çekme ve birçok ödeme yöntemimiz var.",
+      "breadcrumb_title": "CS2 kaplamaları satın alın"
+    },
+    "offers": "indirimli {0} adet, şu fiyattan başlıyor",
+    "no_results": {
+      "info": "Hiçbir şey bulunamadı",
+      "instructions": "Filtrelerinizi değiştirin veya sıfırlayın"
+    },
+    "no_favourites_with_selected_filters": "Seçili filtrelerle favori öğeniz bulunmamaktadır. Tüm favorilerinizi görmek için filtrelerinizi temizleyebilirsiniz",
+    "no_favourites": "{game} favorilerinize henüz hiçbir öğe eklemediniz",
+    "added_favourite": "<strong>{skin}</strong> Favorilerinize eklendi",
+    "removed_favourite": "<strong>{skin}</strong> Favorilerinizden kaldırıldı"
+  },
+  "sell_skins": {
+    "meta_title": "CS:GO, Dota 2 ve Rust Görünümlerinizi - Skin.Land'da Satın",
+    "meta_description": "Skin.Land'da satarak görünümleriniz için en iyi değeri elde edin. Kolay, hızlı ve güvenli.",
+    "index": {
+      "page_title": "CS:GO ve CS2 Görünümlerini Nakde Çevirin",
+      "meta_title": "CS:GO ve CS2 Skinlerini Anında Nakde Çevirmek İçin En İyi Site {year}",
+      "meta_description": "CS:GO ve CS2 skinlerinizi hızlı ve güvenli bir şekilde nasıl nakde çevireceğinizi mi merak ediyorsunuz? Sitemiz, çeşitli ödeme seçenekleri sunarak skinlerinizi nakde çevirmek için en iyi seçimdir."
+    },
+    "csgo": {
+      "page_title": "CS:GO Kaplamaları Satın",
+      "meta_title": "CS:GO/CS2 Skin Satma Gerçek Parayla | CS:GO Item Satış - Skin.Land",
+      "meta_description": "Skin.Land ticaret platformunda CS:GO skinlerini gerçek parayla satabilirsiniz. Uygun para çekme ve kaliteli hizmet ile CS:GO öğelerinin hızlı satışı."
+    },
+    "dota2": {
+      "page_title": "Dota 2 Dış Görünümlerini Satın",
+      "meta_title": "Dota 2 Görünümlerini Gerçek Parayla Sat - Skin.Land",
+      "meta_description": "Skin.Land ticaret platformunda Dota 2 skinlerini gerçek parayla satabilirsiniz. Uygun para çekme ve kaliteli hizmet ile Dota 2 öğelerinin hızlı satışı."
+    },
+    "rust": {
+      "page_title": "Rust Kaplamaları Sat",
+      "meta_title": "Rust Görünümlerini Gerçek Parayla Sat - Skin.Land",
+      "meta_description": "Skin.Land ticaret platformunda Rust skinlerini gerçek parayla satabilirsiniz. Uygun para çekme ve kaliteli hizmet ile Rust öğelerinin hızlı satışı."
+    },
+    "cs2": {
+      "page_title": "CS2 Dış Görünümlerini Satın",
+      "meta_title": "CS2 Kaplamalarını Gerçek Parayla Satmak - Skin.Land",
+      "meta_description": "Skin.Land pazarında CS2 skinlerini gerçek parayla satabilirsiniz. Bizimle CS2 eşyalarınızı satmak için uygun bir fiyat alacaksınız."
+    },
+    "sign_in_block": "Skinleri satmaya başlamak için Steam ile oturum açın.",
+    "items_not_accepted_title": "{count} ürün satış için kabul edilmedi | {count} ürün satış için kabul edilmedi",
+    "items_not_accepted_description": "Hizmetimiz bu skinleri satın almıyor veya takas edilemezler.",
+    "items_not_available_for_sell": "{0} adet satışa sunulamayan öğeniz bulunuyor.",
+    "items_not_available_for_sell_description": "Servisimiz bu skinleri satın almaz veya takas edemezsiniz.",
+    "items_not_available_for_sell_button": "Yenile",
+    "no_items_title": "Takas edilecek eşyanız yok.",
+    "no_items_description": "Envanterinizde kabul edebileceğimiz herhangi bir eşya bulunmuyor. Belki takas edilemiyorlar veya oyuncular onları istemiyor.",
+    "no_items_button": "Yenile",
+    "search_field_placeholder": "Skinleri ara",
+    "search_field_clear_button": "Temizle",
+    "refresh_button_text": "Yenile",
+    "edit_trade_url_button_text": "Takas URL'ini Düzenleyin",
+    "no_results": "’{0}’ için sonuç bulunamadı.",
+    "select_all_skins": "Tümünü seç",
+    "sorting": {
+      "sort_by_price_text": "Fiyat",
+      "sort_by_newest_text": "En yeni",
+      "select_option_text": "Bir seçenek seçin",
+      "no_results": "Hiçbir şey bulunamadı"
+    },
+    "payment": {
+      "steps": {
+        "payment_method": {
+          "title": "Ödeme yöntemi"
+        },
+        "payment_details": {
+          "title": "Ödeme detayları"
+        },
+        "payment_confirmation": {
+          "title": "Ödeme Onayı"
+        },
+        "confirmation_on_steam": {
+          "title": "STEAM'DE ONAY"
+        },
+        "payment_transfer": {
+          "title": "ÖDEME AKTARIMI"
+        }
+      },
+      "forms": {
+        "fields": {
+          "first_name": "Adınız",
+          "last_name": "Soyadınız",
+          "iban": "IBAN",
+          "card_number": "Kart numaranız",
+          "expiration_date": "Banka kartı son kullanma tarihi (AA/YY)",
+          "country": "Banka kartı ülkesi",
+          "date_of_birth": "Doğum tarihi (YYYY/AA/GG)",
+          "bitcoin_wallet": "Bitcoin cüzdanınız",
+          "ethereum_wallet": "Ethereum cüzdanınız",
+          "tether_wallet": "Tether cüzdanınız"
+        }
+      },
+      "details": {
+        "description": "Ödemenizin banka tarafından kredilendirilmesi için üç iş gününe kadar sürebilir. Lütfen işlemi bekleyin.",
+        "bonus": "Bonus",
+        "transaction_commission": "İşlem komisyonu",
+        "you_receive": "Alacağınız",
+        "crypto_amount": "Kripto miktarı"
+      },
+      "confirmation": {
+        "timer_description": "Takası kabul etmek için {0} dakikanız var yoksa işlem iptal edilir.",
+        "details_description": "Güvenli bir takas için lütfen kontrol edin:\n— Bot adı\n— Bot seviyesi\n— Takas hemen iptal edildi ve siz iptal etmedinizse, hesabınız hacklendi. Destek ile iletişime geçin, yardımcı olacağız.",
+        "uniq_id": "Benzersiz Kimlik",
+        "bot_name": "Bot adı",
+        "bot_level": "Bot seviyesi",
+        "accept_trade_title": "Takası kabul et",
+        "accept_trade_browser": "Tarayıcıda",
+        "accept_trade_steam": "Steam'de"
+      },
+      "transfer": {
+        "success_title": "Transfer başarılı!",
+        "success_description": "Paranız hesabınıza aktarıldı.",
+        "button_text": "Yeni Bir Anlaşma Önerin",
+        "statuses": {
+          "credited_to_balance_title": "Ödeme hatası",
+          "credited_to_balance_description": "Para hesabınıza yatırıldı. Detaylar için lütfen destek ile iletişime geçin.",
+          "ignored_title": "Ödeme hatası",
+          "ignored_description": "Ödeme hatası. Lütfen destek ile iletişime geçin.",
+          "success_title": "Transfer başarılı!",
+          "success_description_no_payout": "Para hesabınıza yatırıldı.",
+          "success_description": "Para, belirttiğiniz cüzdana transfer edildi.",
+          "progress_title": "Transfer devam ediyor",
+          "progress_description": "Para transferinizi 5 dakika içinde alacaksınız."
+        }
+      },
+      "no_skins_selected": "Skin seçilmedi",
+      "selected_skins": "{count} eşya için",
+      "next_button_text": "Sonraki",
+      "back_button_text": "Geri",
+      "minimum_trade_amount": "Minimum takas miktarı",
+      "minimum_payout_amount": "Minimum ödeme miktarı",
+      "maximum_payout_amount": "Maksimum ödeme miktarı",
+      "hint_text": "Yalnızca satışlardan elde edilen bakiyeyi çekebilirsiniz.",
+      "mobile_selected_items_for": "{count} eşya için",
+      "mobile_selected_items_button": "Skin satın",
+      "crypto_methods": "Kripto yöntemleri"
+    },
+    "trade_url": {
+      "title": "Takas URL'ini Düzenleyin",
+      "input_placeholder": "Ticaret URL'si",
+      "button_text": "Kaydet",
+      "description": "Ticaret URL'sini burada bulabilirsiniz",
+      "link": "burada"
+    }
+  },
+  "trade_info_modal": {
+    "title": "Aktif takas #{count}:",
+    "success_message_title": "Transfer başarılı!",
+    "success_message_description": "Paranız hesabınıza aktarıldı.",
+    "after_buy_success_title": "Satın Alma Başarılı!",
+    "after_buy_success_description": "Skinler başarıyla Steam hesabınıza aktarıldı. Lütfen aşağıdaki düğmeye tıklayarak bize bir değerlendirme bırakın."
+  },
+  "skin_card": {
+    "skins_count": "indirimde {0} adet, şu fiyattan başlıyor:"
+  },
+  "reviews_page": {
+    "title": "İncelemeler - Gerçek Kullanıcı Geri Bildirimi - Skin.Land",
+    "breadcrumbs_title": "İncelemeler",
+    "meta_description": "Gerçek kullanıcıların Skin.Land hakkında ne söylediklerini görün. Cilt topluluğumuzdaki incelemeleri ve geri bildirimleri okuyun."
+  },
+  "profile_page": {
+    "title": "{userName} Skin.Land Profili - En iyi fiyatlarla CS:GO, Dota 2, Rust görünümleri - Skin.Land",
+    "meta_description": "{userName} Profil. Hesap ve işlemler hakkında bilgi. Skin.Land'da cilt koleksiyonunuza erişin ve bunları yönetin",
+    "tabs": {
+      "profile": "Profil",
+      "transactions": "İşlemler",
+      "security": "Güvenlik"
+    },
+    "profile_tab_title": "Hesap",
+    "trade_url": "Takas URL'i",
+    "trade_url_has_updated": "Ticaret URL'si güncellendi",
+    "email_address": "E-posta adresi",
+    "kyc" : "KYC Doğrulaması",
+    "kyc_verification" : "Müşterini Tanı (KYC), kullanıcılarımızın güvenliğini sağlayan ve çeşitli finans kurumları tarafından uygulanan bir süreçtir. KYC onaylı kullanıcılar daha yüksek para yatırma ve çekme limitlerine sahiptir.",
+    "requested": "Talep edildi",
+    "approved": "Onaylandı",
+    "rejected": "Reddedildi",
+    "verified": "Doğrulandı",
+    "settings": "Ayarlar",
+    "language_dropdown_label": "Dil",
+    "language_dropdown_select_option": "Dil Seç",
+    "currency_dropdown_label": "Para Birimi",
+    "currency_dropdown_select_option": "Para Birimi Seç",
+    "edit_trade_url_button": "Ticaret URL'sini Düzenle",
+    "purchase_cancellation": "Satın alma iptali",
+    "confirm_cancellation": "İptal işlemini onaylayın",
+    "dismiss_cancellation": "Satın Almayı İptal Etmeyin",
+    "success_cancellation": "Satın alma iptal edildi. Para iade edildi.",
+    "cancellation_fee": "İptal ücreti",
+    "not_verified": "Doğrulanmadı",
+    "no_transactions": "Henüz herhangi bir işleminiz yok.",
+    "enter_trade_url_button": "Ticaret URL'sini Gir",
+    "no_trade_url": "Ticaret URL'si belirtilmedi",
+    "where_find_trade_url": "Nerede bulabilirim?",
+    "transaction_statuses": {
+      "error_text": "İade",
+      "accepted_text": "Kabul edildi",
+      "processing_text": "İşleniyor",
+      "wait_text": "Öğenin açılmasını bekleyin",
+      "accept_trade_text": "Takası Kabul Et"
+    }
+  },
+  "transactions_page": {
+    "title": "{userName} İşlemler - En iyi fiyatlarla CS:GO, Dota 2, Rust görünümleri - Skin.Land",
+    "meta_description": "{userName} İşlemler. Para yatırma ve çekme işlemleri hakkında bilgi. Skin.Land'ın işlem geçmişi özelliği ile tüm dış görünüm işlemlerinizi tek bir uygun yerde izleyin ve görüntüleyin.",
+    "contact_support_hint": "Ödeme hatası. Daha fazla bilgi için lütfen destekle iletişime geçin"
+  },
+  "security_page": {
+    "title": "{userName} Güvenlik - En iyi fiyatlarla CS:GO, Dota 2, Rust görünümleri - Skin.Land",
+    "logout_from_all": "Tüm cihazlardan çıkış yapın",
+    "sessions_have_ended": "Diğer cihazlardaki oturumlar sona erdi",
+    "active_sessions": "Aktif Oturumlar: {count}",
+    "last_logins": "Son Girişler: {count}"
+  },
+  "popups": {
+    "edit_trade_url": {
+      "title": "Ticaret URL'sini Düzenle",
+      "input_placeholder": "Ticaret URL'si",
+      "button_text": "Kaydet",
+      "description": "Ticaret URL'sini burada bulabilirsiniz",
+      "link": "burada",
+      "error_title": "Ticaret URL'si belirtilmedi",
+      "error_text": "Lütfen skin satın almak için Trade URL'nizi ekleyin",
+      "error_button_text": "Ticaret URL'sini Gir",
+      "not_valid_title": "Ticaret URL'si geçerli değil",
+      "not_valid_text": "Lütfen Ticaret URL'nizi güncelleyin",
+      "not_valid_button_text": "Ticaret URL'sini Güncelle"
+    },
+    "edit_email": {
+      "title": "E-posta Adresini Düzenleyin",
+      "input_placeholder": "E-posta adresi",
+      "button_text": "Yeni e-posta adresini kaydet",
+      "cancel_button_text": "İptal",
+      "first_step_title": "Mevcut e-posta adresinizi doğrulayın",
+      "first_step_description": "{0} adresine gönderdiğimiz doğrulama kodunu girin",
+      "confirmation_code_input_placeholder": "Onay kodu",
+      "confirmation_button_text": "Onayla",
+      "confirmation_error": "Geçersiz onay kodu",
+      "resend_button_text": "Kodu tekrar gönder",
+      "second_step_title": "Yeni e-posta adresinizi girin ve doğrulayın",
+      "new_email_input_placeholder": "Yeni e-posta adresi",
+      "new_email_confirmation_code_input_placeholder": "Onay kodu",
+      "current_email_verified": "Mevcut e-posta adresi doğrulandı",
+      "edit_new_email": "Yeni e-posta adresini düzenleyin",
+      "sent_verification_code": "{0} adresine gönderdiğimiz doğrulama kodunu girin",
+      "verified": "Doğrulandı"
+    },
+    "withdrawal": {
+      "title": "Para çekme",
+      "input_label": "Para çekme miktarını girin",
+      "available_for_withdrawal": "Çekilebilir miktar:",
+      "total_balance": "Toplam Bakiye",
+      "min_withdrawal_text": "Minimum para çekme miktarı",
+      "transaction_commission_text": "İşlem komisyonu",
+      "bonus_text": "Bonus",
+      "you_receive_text": "Şunu alırsınız:",
+      "crypto_amount_text": "Kripto miktarı",
+      "exceed_balance": "Çekilecek miktar, çekilebilir bakiyeyi aşıyor.",
+      "minimum_amount": "Minimum para çekme miktarı",
+      "maximum_amount": "Maksimum para çekme miktarı",
+      "unverified_email_title": "Doğrulanmamış e-posta adresi",
+      "unverified_email_for_refill_description": "Bakiyenize yükleme yapmak için lütfen e-posta adresinizi doğrulayın.",
+      "unverified_email_for_withdrawal_description": "Bakiyenizden para çekmek için lütfen e-posta adresinizi doğrulayın.",
+      "unverified_email_for_selling_description": "Bakiyenize skinler kulllanarak yükleme yapmak için lütfen e-posta adresinizi doğrulayın.",
+      "unverified_email_button_text": "E-posta adresini doğrulayın",
+      "confirmation_details": "{0} e-posta adresinize bir onay kodu gönderdik.",
+      "resend_btn_text": "Kodu tekrar gönder",
+      "confirm_btn_text": "İşlemi onaylayın",
+      "success_title": "Aktarım başarılı!",
+      "success_description": "Para belirttiğiniz cüzdana aktarıldı.",
+      "error_title": "Aktarım hatası",
+      "error_description": "Sorunu incelemeleri için lütfen destek ekibimizle iletişime geçin.",
+      "error_credited_to_balance_description": "Para bakiyenize eklendi.",
+      "locked_balance_text": "Şu tarihe kadar kilitli:",
+      "moderation_title": "Aktarım devam ediyor",
+      "moderation_description": "İşlem süresi:\nBanka kartı ve Kripto transferleri genellikle 20-30 dakika içinde.\nSEPA transferleri genellikle 1-3 iş günü içinde.",
+      "confirm_withdrawal_text": "Para çekme işlemini onaylamak için e-postanıza gönderilen kodu girin:",
+      "amount_sent": "Gönderilen miktar",
+      "to_wallet": "Cüzdana",
+      "to_card": "Karta",
+      "success_button_text": "Harika!",
+      "fail_button_text": "Tamam",
+      "contact_support_button_text": "Destek ile iletişime geçin",
+      "next_button_text": "Sonraki",
+      "saved_payout": {
+        "title": "Kaydedilen Ödeme Yöntemleri",
+        "expires": "Süresi doldu",
+        "set_as_default": "Varsayılan olarak ayarla",
+        "delete": "Silme",
+        "default": "Varsayılan",
+        "mastercard_error": "MasterCard bu yöntem için mevcut değildir, lütfen Visa kullanın",
+        "add_new_method_button": "Kart ekle",
+        "no_items": "Kaydedilmiş kart yok",
+        "show_all_cards": "Tüm kartları göster",
+        "hide": "Gizle"
+      }
+    },
+    "refill_balance": {
+      "title": "Bakiyeyi yeniden doldur",
+      "input_label": "Yatırma miktarını girin.",
+      "min_deposit_text": "Minimum yatırma miktarı",
+      "minimum_amount": "Minimum yatırma miktarı",
+      "you_pay_text": "Şu miktarı ödersiniz:",
+      "maximum_amount": "Maksimum yatırma miktarı",
+      "hint_message_title": "Ödeme yapmadan önce okuyun",
+      "hint_message_description": "Yatırılan fonlar geri çekilemez. Para yatırmadan önce, yalnızca envanterinizdeki öğeleri satarak elde ettiğiniz fonları çekebileceğinizi unutmayın. Para yatırma sistemimiz hakkında daha fazla bilgi için destek ekibimizle iletişime geçin.",
+      "kyc_message": "Platformumuzun güvenliğini artırmak ve yasal uyumluluğu sağlamak için KYC'siz günlük para yatırma limitimiz {0}'dir. Limiti artırmak için {1} geçmeniz gerekiyor.",
+      "kyc_procedure_button_text": "KYC prosedürü",
+      "kyc_verify_to_remove_limit": "Limitlerinizi artırmak için KYC doğrulamasını tamamlayın",
+      "kyc_daily_limit_text": "Günlük para yatırma limitiniz",
+      "kyc_unlimited_deposit": "Know Your Customer (KYC), kullanıcılarımızın güvenliğini sağlayan ve çeşitli finansal kurumlar tarafından uygulanan bir süreçtir. KYC doğrulanmış kullanıcıların daha yüksek para yatırma ve çekme limitleri vardır.",
+      "kyc_start": "KYC Doğrulamasını Başlat",
+      "next_button_text": "Öde",
+      "tos_and_privacy": "Öde'ye tıklayarak {0} ve {1} sayfalarımızı okuduğunuzu kabul etmiş olursunuz.",
+      "tos_text": "Hizmet Koşulları",
+      "privacy_policy_text": "Gizlilik Politikasını",
+      "timer_description": "İşlemi tamamlamak için {0} dakikanız var. Ödeme tamamen otomatik yapılır.",
+      "time_is_over": "Süre doldu. Yeni bir dolum işlemi başlatın. Bu ödeme kimlik bilgilerini bir işlem yapmak için kullanmayın!",
+      "send_btn_amount": "Lütfen aşağıdaki miktarı gönderin <strong>{0}</strong> amount:",
+      "wallet_address_text": "şu cüzdan adresine:",
+      "copy_btn_text": "Kopyala",
+      "copy_toast": "Kopyalandı",
+      "deposit_success_title": "Başarılı ödeme.",
+      "deposit_success_description": "Ödemenizi aldık. Bakiyeniz yüklendi.",
+      "deposit_success_button_text": "Kapat",
+      "deposit_error_title": "Ödeme alınmadı.",
+      "deposit_error_description": "Lütfen tekrar ödemeyi deneyin. Sorun yaşıyorsanız lütfen destek ile iletişime geçin.",
+      "deposit_error_button_text": "Yeni Bir Anlaşma Önerin",
+      "deposit_timeout_title": "Ödeme alınmadı.",
+      "deposit_timeout_description": "Lütfen tekrar ödeme yapmayı deneyin. Herhangi bir sorun yaşarsanız, lütfen destek ile iletişime geçin.",
+      "moderation_title": "Aktarım devam ediyor",
+      "moderation_description": "İşlem süresi:\nBanka kartı ve Kripto transferleri genellikle 20-30 dakika içinde.\nSEPA transferleri genellikle 1-3 iş günü içinde.",
+      "pay_button_hint": "Ödeme yapmak için aşağıdaki düğmeye tıklayın.",
+      "pay_button_text": "Ödemeye Git",
+      "tether_trc20_qrcode_text": "Lütfen bu <b>USDT</b> cüzdanının <b>TRC-20</b> ağında olduğunu unutmayın.",
+      "tether_erc20_qrcode_text": "Lütfen bu <b>USDT</b> cüzdanının <b>ERC-20</b> ağında olduğunu unutmayın.",
+      "bitcoin_qrcode_text": "Lütfen bu <b>Bitcoin</b> cüzdanının <b>Bitcoin</b> ağında olduğunu unutmayın.",
+      "ethereum_qrcode_text": "Lütfen bu <b>Ethereum</b> cüzdanının <b>Ethereum (ERC20)</b> ağında olduğunu unutmayın.",
+      "static_wallet_address_text": "Bu sizin özel para yatırma adresinizdir. Yaptığınız herhangi bir para yatırma işlemi blok zinciri onayından sonra bakiyenizde görünecektir",
+      "static_wallet_minimum_deposit": "Minimum para yatırma miktarı: Ağ ücretlerinden sonra <strong>{0}</strong> Daha az para yatırmak, geri ödeme imkanı olmaksızın para kaybına neden olacaktır.",
+      "static_wallet_hint": "*Not: işlem sırasında döviz kuru değişirse, gönderdiğinizden farklı bir miktar alabilirsiniz",
+      "transaction_commission": "İşlem komisyonu",
+      "crypto_network": "<strong>Ağı: {0}</strong>. Diğer ağlar üzerinden yapılan işlemlerde fonlar kaybolacaktır.<br><br>* İşlem sırasında döviz kuru değişirse, gönderdiğinizden farklı bir miktar alabilirsiniz.",
+      "refill_amount": "Yükleme tutarı",
+      "back_button_text": "Geri"
+    },
+    "security_alert": {
+      "title": "Güvenlik Uyarısı",
+      "text": {
+        "line_1": "Takasınız Steam'de iptal edildi. İptal işlemini siz yapmadıysanız hesabınızın güvenliği ihlal edilmiş durumda. Bu sorunu önlemek için artık takası kabul etmeyin ve aşağıdaki adımları izleyin:",
+        "line_2": "Steam hesap ayarlarınızda şifrenizi değiştirin.",
+        "line_3": "Saldırganların oluşturduğu API Anahtarını iptal edin. Bunu bu <a target=\"_blank\" href=\":url\">bağlantıyı</a> kullanarak yapabilirsiniz. Yeni bir anahtar oluşturmanız gerekmez.",
+        "line_4": "Takas URL'inizi değiştirin. Bunu <a href=\":url\" target=\"_blank\">buradan</a> yapabilirsiniz.",
+        "line_5": "Gelecekte, Steam hesabınızı kullanan üçüncü şahıs sitelere yetki verirken dikkatli olun. Hesabınıza yapılan saldırıların sorumlusu genellikle bu sitelerdir. Steam hesabınızın giriş geçmişine <a href=\":url\" target=\"_blank\">buradan</a> istediğiniz zaman bakabilirsiniz.",
+        "line_6": "Artık hesabınız güvende ve sitemizi kullanmaya devam edebilirsiniz."
+      },
+      "ok_button_text": "Tamam",
+      "dont_show_this_button_text": "Bunu Bana Bir Daha Gösterme"
+    },
+    "bonus": {
+      "header_title": "10$'ınızı şimdi alın!",
+      "header_description": "Bonusunuzu almak için SKIN.LAND'de görünüm satın",
+      "form_description": "En sevdiğiniz etkileyiciden aldığınız bir kodu girin.",
+      "form_hint": "Kodunuz yok mu? Bunu kullan:",
+      "form_field_placeholder": "Kod",
+      "form_button_label": "Bonusu etkinleştir",
+      "success_title": "Bonus etkinleştirildi!",
+      "success_description": "İlk görünümlerinizi satın ve bakiyenizde bonus kazanın",
+      "success_button_label": "Harika!",
+      "footer_button_label": "Nasıl çalışır?",
+      "footer_description": "Dış görünüm satarak ilk işleminizi yapın ve bakiyenizden $$$ kazanın! Kadar basit!",
+      "footer_table_sell": "Satış: {0}",
+      "footer_table_take": "Ekstra al: {0}",
+      "error_first_sell": "Bonus uygulanamaz çünkü sadece ilk skin satışı için çalışır.",
+      "header_button_text": "Promosyon kodunu kullan"
+    },
+    "bonus_reminder": {
+      "table_trade": "Ticaret <b>{0}</b>",
+      "table_bonus": "Bonus <b>{0}</b>",
+      "title": "Etkinleştirilmiş ilk deri satışı",
+      "title_bonus": "bonusu!",
+      "description": "{0} karşılığında seçilen öğeler, {2} bonus almak için {1} daha ekleyin",
+      "reached_description": "{0} için seçilen öğeler, {1} bonus alacaksınız"
+    },
+    "welcome": {
+      "signup_completion": {
+        "title": "Skin Land'e hoş geldiniz!",
+        "description": "Lütfen Ticari URL'nizi ve E-posta adresinizi girin",
+        "first_card_title": "Güvenlik",
+        "first_card_description": "Size para çekme işlemlerini onaylamak için kullanabileceğiniz doğrulama kodları göndereceğiz.",
+        "second_card_title": "Sıfır İstenmeyen Posta Politikası",
+        "second_card_description": "Sizi haber bültenleriyle sıkmayacağız. Sadece en önemli haberleri alacaksınız.",
+        "input_label": "E-posta adresiniz",
+        "input_hint": "Devam\\'a tıklayarak {0} kabul etmiş ve ayrıca {1} okuduğunu onayladığını kabul edersin.",
+        "tos_text": "Şartlar ve Koşulları",
+        "privacy_policy_text": "Gizlilik Politikamızı",
+        "primary_button_text": "Devam et",
+        "secondary_button_text": "Daha sonra yap",
+        "first_step": "Ticari URL'nizi girin",
+        "second_step": "E-posta adresinizi girin",
+        "incorrect_trade_url": "Yanlış Ticaret URL'si"
+      },
+      "email_verification": {
+        "title": "E-posta adresi doğrulaması",
+        "description": "{0} adresinize bir e-posta gönderdik\n\nE-postadaki bir bağlantıyı takip ederek e-posta adresinizi doğrulamanız gerekir. E-postayı bulamıyorsanız lütfen Spam veya Toplu E-posta klasörlerinizi kontrol edin.\n\nDoğrulama olmadan herhangi bir finansal işlem gerçekleştiremezsiniz.",
+        "resend_button_text": "E-postayı tekrar gönder",
+        "update_description": "E-posta adresinizi güncellemek istiyorsanız lütfen bu bağlantıyı takip edin:",
+        "update_button_text": "E-posta adresini güncelleyin",
+        "primary_button_text": "Tamam"
+      },
+      "email_update": {
+        "title": "E-posta adresi güncellemesi",
+        "description": "Lütfen doğrulama için e-posta adresinizi giriniz.\n\nE-posta adresinin geçerli olması gerekir. Burası, tüm işlemleriniz için makbuzları ve para çekme işlemlerini onaylamak için doğrulama kodlarını alacağınız yerdir.",
+        "input_label": "E-posta adresiniz",
+        "primary_button_text": "Kaydet ve devam et",
+        "secondary_button_text": "İptal"
+      },
+      "verification_success": {
+        "title": "E-posta adresi başarıyla doğrulandı!",
+        "primary_button_text": "Harika!"
+      },
+      "verification_error": {
+        "title": "E-posta adresi doğrulaması başarısız oldu",
+        "description": "Bağlantının süresi dolmuş veya bozuk. Zaten bağlantı talebinde bulunduysanız yeni bir e-postanın gelmesini bekleyin veya buradan yeni bir bağlantı isteyin:",
+        "verify_button_text": "E-posta adresini doğrulayın",
+        "primary_button_text": "Tamam"
+      }
+    },
+    "error": {
+      "title": "Hata",
+      "description": "Steam sorunları\" nedeniyle ekran görüntüsü alınamadı. Ama yine de oyundaki cilde bakabilirsiniz.\nBu sorun üzerinde çalışıyoruz ve yakında alternatif bir çözüm bulacağız.",
+      "button_text": "Kapat"
+    },
+    "buy_now": {
+      "success_title": "Başarılı ödeme.",
+      "success_description": "Kaplamalar başarıyla satın alındı. Bunları Profilinizin İşlemler bölümünde bulabilirsiniz.",
+      "success_button_text": "Satın almaya git",
+      "pay_button_text": "Bakiye kullanarak öde"
+    },
+    "login": {
+      "title": "Yetkilendirme gerekiyor",
+      "instructions": "Websitesini kullanmak için Steam üzerinden giriş yapın.",
+      "benefits": "Hızlı ve kolay!"
+    },
+    "unauthorized": {
+      "title": "Devam etmek için giriş yapın",
+      "description": "Siteyi kullanmaya devam etmek için Steam profilinizle giriş yapın"
+    },
+    "cookie_policy": {
+      "text": "Skin.Land'de deneyiminizi geliştirmek için çerezler kullanıyoruz, bu, {0} açıklandığı şekildedir. Bu web sitesini kullanmaya devam ederek, çerez kullanımına izin vermiş olursunuz.",
+      "text_link": "Çerez Politikamızda",
+      "button_accept_all": "Hepsini Kabul Et",
+      "button_accept_essentials": "Sadece gerekli olanları kabul et",
+      "button_customize": "Özelleştir",
+      "button_save": "Kaydet ve Uygula",
+      "essential_cookies_title": "Kesinlikle Gerekli Çerezler",
+      "essential_cookies_text": "Bu çerezler web sitesini düzgün çalıştırmamıza yardımcı olur. Bu çerez türü devre dışı bırakılamaz.",
+      "functional_cookies_title": "İşlevsel Çerezler",
+      "functional_cookies_text": "Bu çerezler kişisel ayarlarınızı hatırlamamıza izin verir (örneğin, dil).",
+      "performance_cookies_title": "Performans Çerezleri",
+      "performance_cookies_text": "Bu çerezler web sitesinin kullanımını analiz ederek hizmeti iyileştirmemize olanak tanır.",
+      "targeting_cookies_title": "Pazarlama/Hedefleme Çerezleri",
+      "targeting_cookies_text": "Bu çerezler reklamları ilgi alanlarınıza daha uygun hale getirmemize olanak tanır."
+    }
+  },
+  "faq_page": {
+    "default_answer": "Cildinizle ilgili tüm sorularınıza Skin.Land SSS sayfasında yanıtlar bulun. Güvenle alım satım yapmak için ihtiyacınız olan bilgileri edinin. Tabii ki, yardım için destek ekibimize help{'@'}skin.land e-posta adresinden de ulaşabilirsiniz",
+    "back_button_text": "SSS'ye Geri Dön"
+  },
+  "blog_page": {
+    "page_title": "Makaleler",
+    "top_articles": "En İyi Makaleler",
+    "title": "CS:GO, Dota 2 ve Rust için Dış Görünüm Haberleri ve Trendler - Skin.Land Blog",
+    "meta_description": "Skin.Land blogu ile cilt dünyasındaki en son haberler ve trendler hakkında bilgi sahibi olun ve güncel kalın"
+  },
+  "article_page": {
+    "comments": "yorum",
+    "articles": "Makaleler",
+    "write_comment": "Yorum yaz",
+    "send_comment_button_text": "Gönder",
+    "user_name_input_placeholder": "Adınız",
+    "user_comment_input_placeholder": "YORUMUNUZ",
+    "latest_articles_title": "Diğer harika makalelerimiz",
+    "page_navigation": "Navigasyon",
+    "app_title": "Skin.Land Blogu"
+  },
+  "author_page": {
+    "follow_on_linkedin": "LinkedIn'da takip et",
+    "total_articles_text": "Makaleler",
+    "about_author": "Yazar Hakkında",
+    "articles_by": "tarafından yazılan makaleler",
+    "updated_label": "Güncelleme tarihi:"
+  },
+  "welcome_page": {
+    "page_title": "CS:GO Skins ve Eşyalarını Hemen, Güvenli ve 7/24 Satın Alın ve Satın Alın",
+    "page_description": "CS:GO skinlerini daha hızlı ve kolay bir şekilde satın almak, satmak ve takas etmek için. Tüm işlemler en yüksek güvenlik önlemleriyle korunmaktadır.",
+    "title": "CS:GO skinlerini ticaret etmenin daha iyi bir yolu",
+    "description": "Skinleri daha kolay ve hızlı bir şekilde satın alın, satın alın ve ticaret yapın. Tüm anlaşmalar en yüksek seviye koruma yöntemleriyle güvence altına alınmıştır",
+    "try_now": "Şimdi dene",
+    "bloggers_title": "En büyük bloggerlar ve CS:GO topluluğu tarafından güvenilen",
+    "upgrade_skins": "skin.land ile skinlerinizi yükseltin",
+    "store": {
+      "title": "Mağaza",
+      "description": "Mağazamız, eşya satın alma sürecini daha kolay ve daha hızlı hale getirir. Şunlardan faydalanın:",
+      "first_benefit": {
+        "info": "Skinleriniz için uygun fiyatlar sunuyoruz"
+      },
+      "second_benefit": {
+        "info": "Hizmetimiz şeffaf olup gizli komisyonlar içermez"
+      },
+      "third_benefit": {
+        "info": "Hızlı ödemeler için sizin adınıza 7/24 çalışıyoruz"
+      },
+      "fourth_benefit": {
+        "info": "Hizmetimizde yasal ve güvenli uygulamaları önceliklendiriyoruz"
+      }
+    },
+    "benefits": {
+      "first_cell": {
+        "caption": "10%",
+        "description": "ilk skin satışı için %10 bonus"
+      },
+      "second_cell": {
+        "caption": "80k",
+        "description": "web sitemizde CS:GO, Dota 2 ve Rust öğeleri"
+      },
+      "third_cell": {
+        "caption": "30sn",
+        "description": "giriş yapmaktan satın alma işlemi yapmaya kadar"
+      },
+      "fourth_cell": {
+        "caption": "24/7",
+        "description": "çevrimiçi destek, yanıt süresi 5 dakikadan az"
+      }
+    },
+    "best_offer": {
+      "title": "En iyi teklif",
+      "description": "En iyi teklifi almak için Steam marketindeki skin fiyatlarını ve farklarını takip edin"
+    }
+  },
+  "cart_page": {
+    "title": "Alışveriş Sepeti",
+    "meta_title": "Sepet - Deriler Alın - Skin.land",
+    "meta_description": "Skin.Land Market ile CS:GO, Dota 2 ve Rust gibi popüler oyunlar için satın aldığınız dış görünümleri kolayca yönetin",
+    "toast_added_to_cart": "<strong>{skin}</strong> sepetinize eklendi",
+    "toast_removed_from_cart": "<strong>{skin}</strong> sepetinizden çıkarıldı",
+    "content": {
+      "items": "eşya",
+      "clear_button": "Sepeti Temizle",
+      "checkout_button": "Ödeme",
+      "no_items": "Sepette eşya yok",
+      "image_popup": {
+        "tag_name": "Ad etiketi:",
+        "show_on_bot_button": "Botta göster",
+        "inspect_in_game_button": "Oyun içinde incele",
+        "screenshot_button": "Ekran görünümü"
+      },
+      "stickers_info_total": "Toplam:",
+      "unavailable_items": "Eşya kullanılamıyor",
+      "clear_unavailable_button": "Uygun olmayanları temizle"
+    },
+    "sidebar": {
+      "items_count": "ürün için",
+      "not_enough_balance_title": "Yetersiz bakiye!",
+      "not_enough_balance_description": "Satın almak için bakiyenize {0}{1} yükleyin.",
+      "not_enough_balance_description_converted": "Satın almak için bakiyenize {0}{1} ({2}{3}) yükleyin.",
+      "not_enough_balance_button": "Bakiyeye yükleme yap",
+      "pay_button": "Bakiyeyi kullanarak öde",
+      "go_to_market_button": "Skins'i sepete ekle",
+      "trade_lock_title": "Ticaret Kilidi",
+      "trade_lock_text": "“Takas Kilidi” olan kostümler için kilit açıldıktan sonra bir takas teklifi gönderilecek ve takası kabul etmek için <b>5 saatiniz olacaktır.</b><br> Kostümün kilidinin açılacağı tarih ve saati, satın alınan öğeye tıklayarak Profilinizin İşlemler bölümünden takip edebilirsiniz.<br><br> Belirtilen süre içinde takası kabul etmezseniz, takas iptal edilecek ve para bakiyenize iade edilecektir.",
+      "p2p_title": "P2P",
+      "p2p_text": "Satıcı gönderdikten sonra ticareti kabul etmek için 12 saatiniz olacak. Ticareti kabul etmemek %2 ceza ile sonuçlanır.",
+      "success_title": "Başarılı satın alma",
+      "success_description": "Kaplamalar başarıyla satın alındı. Bunları Profilinizin İşlemler bölümünde bulabilirsiniz.",
+      "success_button": "Satın almaya git"
+    }
+  },
+  "cart_modal": {
+    "title": "Sepet",
+    "empty_text": "Sepette hiçbir şey yok",
+    "items_for": "{count} eşya için",
+    "checkout_button_text": "Ödeme Yap",
+    "unlocked": "Açık",
+    "locked": "Kilitli"
+  },
+  "skin_page": {
+    "meta_title": "{name} satın alın - fiyat {price} - Skin.Land'da dış görünüm satın alın",
+    "meta_description": "Deriler mağazamızda {name} fiyatına göre {price} 'dan satın alabilirsiniz. Deride büyük bir derme çeşitleri.",
+    "inspect_in_game_button": "Oyun içinde incele",
+    "screenshot_button": "Ekran görünümü",
+    "type_label": "Tür",
+    "rarity_label": "Nadirlik",
+    "category_label": "Kategori",
+    "quality_label": "Kalite",
+    "hero_label": "Kahraman",
+    "in_other_categories_label": "Diğer kategorilerde listelenen skin",
+    "best_offer_label": "En İyi Teklif",
+    "buy_button": "Şimdi Satın Al",
+    "add_to_cart_button": "Sepete Ekle",
+    "in_cart_button": "Sepette",
+    "on_sale_label": "indirimde adet",
+    "from_label": "itibaren",
+    "filter_label": "Filtreler",
+    "reset_filters_button": "Filtreleri Sıfırla",
+    "apply_filters_button": "Filtreleri Uygula",
+    "offers_count_label": "{count} teklif | {count} teklif",
+    "no_offers": "Teklif bulunamadı.",
+    "suggestions_title": "Şunlar da hoşunuza gidebilir",
+    "sort_unlock_early_label": "Kilidi erken açılan",
+    "sort_unlock_later_label": "Kilidi geç açılan",
+    "sort_price_label": "Fiyat",
+    "sort_float_label": "Float",
+    "on_sale_from_label": "indirimde adet, şu fiyattan başlıyor:",
+    "locked": "Kilitli",
+    "unlocked": "Kilidi açılmış",
+    "out_of_stock": "Stoklar tükendi",
+    "stickers": "çıkartma | çıkartmalar"
+  },
+  "screenshot_page": {
+    "title": "Ekran görüntüsü yükleniyor",
+    "description": "Ortalama olarak 15-20 saniye sürer, ancak nadir durumlarda daha uzun sürebilir"
+  },
+  "trade_info": {
+    "time_left": "Kalan süre:",
+    "contact_support_button_text": "Destek ile iletişime geçin",
+    "new_deal_button_text": "Yeni Bir Anlaşma Önerin",
+    "client_satisfied_button": "İnceleme Yazın",
+    "statuses": {
+      "credited_to_balance_title": "Ödeme hatası",
+      "credited_to_balance_description": "Para bakiyenize alacak olarak eklendi. Detaylar için lütfen destek ile iletişime geçin.",
+      "success_title": "Transfer başarılı",
+      "success_description_no_payout": "Para bakiyenize eklendi.",
+      "success_description": "Para belirttiğiniz cüzdana transfer edildi.",
+      "client_satisfied_text": "\nLütfen aşağıdaki düğmeye tıklayarak bize bir inceleme bırakın.",
+      "contact_support_title": "Ödeme hatası",
+      "contact_support_description": "Ödeme hatası. Lütfen destek ile iletişime geçin.",
+      "timeout_title": "Süre doldu",
+      "timeout_description": "Süre doldu. Yeni bir takas işlemi başlatın.",
+      "canceled_title": "Takas iptal edildi",
+      "canceled_description": "Takas, Steam'de iptal edildi. \nHâlâ yapmadıysanız lütfen destek ile iletişime geçin.",
+      "in_progress_title": "Transfer devam ediyor",
+      "in_progress_description": "İşlem süresi:\nBanka kartı ve kripto transferleri genellikle 20-30 dakika sürer.\nSEPA transferleri genellikle 1-3 iş günü sürer."
+    }
+  },
+  "privacy_policy_page": {
+    "title": "Gizlilik Politikası - Bilgileriniz Güvende - Skin.Land",
+    "meta_description": "Skin.Land'in açık ve şeffaf Gizlilik Politikamız ile bilgilerinizi ve veri gizliliğinizi nasıl koruduğunu anlayın."
+  },
+  "terms_of_service_page": {
+    "title": "Hizmet Koşulları - Skin.Land",
+    "meta_description": "Skin satın alma ve satma politikalarımız da dahil olmak üzere Skin.Land'i kullanma yönergeleri hakkında bilgi edinin."
+  },
+  "contacts_page": {
+    "title": "İletişim - İletişime Geçin - Skin.Land",
+    "breadcrumb_title": "Kişiler",
+    "meta_description": "Cilt için bir sorunuz veya öneriniz mi var? İletişim sayfamız aracılığıyla destek ekibimizle iletişime geçin."
+  },
+  "buy_csgo_skins_with_credit_card_page": {
+    "title": "Skin.Land üzerinden kredi kartı ile CS:GO skinleri satın alın",
+    "breadcrumbs_title": "Kredi kartı ile CS:GO skinleri satın alın",
+    "meta_description": "Skin.Land mağazasında CS:GO skinlerini kredi kartı ile satın alabilirsiniz. Bir skin seçin ve kredi kartı ile 7/24 anında ödeme yapın."
+  },
+  "buy_csgo_skins_with_crypto_page": {
+    "title": "Skin.Land üzerinden kripto için CS:GO/CS2 skinleri satın alın",
+    "breadcrumbs_title": "Kripto için CS:GO skinleri satın alın",
+    "meta_description": "Skin.Land mağazasında kripto karşılığında CS:GO skinleri satın alabilirsiniz. Bir skin seçin ve kripto para ile anında 7/24 ödeme yapın."
+  },
+  "sell_csgo_cs2_skins_with_crypto": {
+    "title": "Kripto için CS:GO/CS2 Skinleri ve Eşyaları Sat - Skin.Land",
+    "breadcrumbs_title": "CS:GO/CS2 Skinlerini Kripto Satmak",
+    "meta_description": "Skin.Land ticaret platformunda CS:GO skinlerini Kripto satabilirsiniz. Uygun para çekme ve kaliteli hizmet ile CS:GO öğelerinin hızlı satışı."
+  },
+  "cookie_policy_page": {
+    "title": "Çerez Politikası - Bilgileriniz Güvende - Skin.Land",
+    "meta_description": "Skin.Land Çerez Politikası hakkında bilgi edinin."
+  }
+}
