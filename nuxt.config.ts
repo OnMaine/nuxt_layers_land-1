@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { sentryVitePlugin } from '@sentry/vite-plugin'
+
 export default defineNuxtConfig({
   extends: [
     ['github:OnMaine/shared', { auth: process.env.GITHUB_TOKEN }]
@@ -6,8 +8,6 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-
-  sourcemap: true,
 
   i18n: {
     lazy: true,
@@ -59,6 +59,24 @@ export default defineNuxtConfig({
     compilation: {
       strictMessage: false,
     },
+  },
+
+  sourcemap: true,
+
+  vite: {
+    plugins: [
+      sentryVitePlugin({
+        org: "test-r2k",
+        project: "javascript-vue",
+        authToken: process.env.SENTRY_AUTH_TOKEN,
+        sourcemaps: {
+          filesToDeleteAfterUpload: [
+            '.nuxt/**/*.js.map',
+            '.output/**/*.js.map',
+          ],
+        },
+      }),
+    ],
   },
 
   modules: ['@nuxt/image', '@nuxtjs/i18n'],
