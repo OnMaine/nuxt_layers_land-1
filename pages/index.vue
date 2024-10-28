@@ -72,7 +72,6 @@ const data = ref(null);
 
 const handleError = () => {
     throw createError({ statusCode: 404, statusMessage: t('common.page_not_found') });
-    console.log(t('common.page_not_found', '', { locale: 'sv' }))
 };
 
 

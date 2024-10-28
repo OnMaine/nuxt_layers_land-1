@@ -5,8 +5,6 @@ export const SENTRY_EXCEPTIONS_MESSAGES = {
     'common.too_many_requests',
     'common.page_not_found',
     'common.404',
-    'asd',
-    'main_page.welcome.advantages.security',
   ],
   not_localized : [
     'Your account is frozen',

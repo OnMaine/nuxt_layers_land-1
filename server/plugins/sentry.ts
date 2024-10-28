@@ -1,7 +1,7 @@
 import * as Sentry from '@sentry/node';
 import { nodeProfilingIntegration } from '@sentry/profiling-node';
 import { defineNitroPlugin } from 'nitropack/runtime/plugin';
-import { useSentryConfigEvent } from '@/composables';
+import { useSentryConfigEvent } from '@/composables/use_sentry';
 
 export default defineNitroPlugin(nitroApp => {
   // TODO: remove after plugin fix https://github.com/getsentry/sentry-javascript/issues/12490

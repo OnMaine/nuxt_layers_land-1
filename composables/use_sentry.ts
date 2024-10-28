@@ -15,7 +15,7 @@ import pt from '@/locales/pt.json';
 import sv from '@/locales/sv.json';
 import tr from '@/locales/tr.json';
 import type { SentryEventTags } from '@/types';
-import { setSentryEventTags } from '@/utils';
+import { setSentryEventTags } from '@/utils/set_tags_to_sentry_events';
 
 const locales: Record<string, any> = { de, en, es, fr, pl, pt, sv, tr };
 
@@ -38,21 +38,19 @@ const getAllExceptionsMessages = (): string[] => {
 
     return translations.length > 0
       ? translations
-      : [messageKey];
+      : [];
   });
 
   return [...not_localized, ...localizedMessages];
 };
 
 const shouldIgnoreEvent = (statusCode?: number, statusMessage?: string): boolean => {
-  // if (statusCode && SENTRY_EXCEPTIONS_CODES.includes(statusCode)) {
-  //   return true;
-  // }
+  if (statusCode && SENTRY_EXCEPTIONS_CODES.includes(statusCode)) {
+    return true;
+  }
 
   if (statusMessage) {
     const allExceptionsMessages = getAllExceptionsMessages();
-    console.log(allExceptionsMessages, 'allExceptionsMessages');
-    console.log(allExceptionsMessages.some(exception => statusMessage.includes(exception)), 'allExceptionsMessages.some(exception => statusMessage.includes(exception))');
     return allExceptionsMessages.some(exception => statusMessage.includes(exception));
   }
 
