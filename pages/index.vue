@@ -41,11 +41,6 @@
 </template>
 
 <script setup>
-
-import {
-  getErrors,
-} from '@/api';
-
 definePageMeta({
  layout: 'main',
 });
@@ -57,14 +52,6 @@ const test = useTest();
 log();
 
 const data = ref(null);
-
-// const { data } = await useFetch('/api/test', {
-//     method: 'GET',
-// });
-
-// const { data:test_fetch } = await useApi('/api/test2', {
-//     method: 'GET',
-// });
 
 const handleError = () => {
     throw createError({ statusCode: 404, statusMessage: t('common.page_not_found') });
