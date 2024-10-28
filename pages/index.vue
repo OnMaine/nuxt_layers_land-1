@@ -20,10 +20,6 @@
             {{ locale }} / {{ t('common.page_not_found') }} / {{ t('common.404') }} }}
         </div>
 
-        <div class="pdn 2">
-            <button @click="throwErrorServer">Throw error server</button>
-        </div>
-
 
         <nuxt-link to="/test" class="link">test page from Lib</nuxt-link>
 
@@ -73,16 +69,6 @@ const data = ref(null);
 const handleError = () => {
     throw createError({ statusCode: 404, statusMessage: t('common.page_not_found') });
 };
-
-
-
-async function throwErrorServer() {
-    const response = await getErrors();
-
-    console.log(response);
-
-    data.value = response.data;
-}
 </script>
 
 <style scoped>
